@@ -1,0 +1,45 @@
+<div style = "margin-left: auto;margin-right: auto;width: 80em;
+padding-top: 50px;padding-bottom: 50px;">   
+
+<html>
+<head>
+<title>
+IE 331: Operations Research: Optimization
+</title>
+<meta charset="utf-8">
+</head>
+<center><h2>IE 331: Operations Research: Optimization, Fall 2022</h2></center>
+<center><h3>TTh 4:00 - 5:30 pm, E2-2(산업경영학동) #1501</h3></center>
+
+<body>
+<p><b>Instructor</b>: <a href="https://dabeenl.github.io">Dabeen Lee</a> (E2-2 #2109)</br>
+<b>Email</b>: dabeenl [at] kaist [dot] ac [dot] kr</p>
+
+<p><b>Teaching Assistant</b>: Jaehyun Park (Email: jhpark [at] kaist [dot] ac [dot] kr) and Junyeop Kwon (Email: junyeopk [at] kaist [dot] ac [dot] kr)</p>
+
+<p><b>Text</b>: No required text, but the following materials are helpful.</br></br>
+<u>Recommended textbooks and lecture notes</u>
+<ul>
+</ul></p>
+
+<p><b>Syllabus</b> (<a href="IE331_syllabus.pdf">pdf</a>)</p>
+
+<p>Operations Research \& Management Science (ORMS) refers to analytical and quantitative techniques that are used in decision-making processes for organizations (including businesses). This course will focus on mathematical optimization and mathematical programming, arguably the most fundamental tool used for quantitative decision-making. We will learn basic yet fundamental frameworks to formulate a decision-making problem as a mathematical optimization model, taking into account data, constraints, and objectives. Topics include, but are not limited to, introduction to linear programming, network flow models, integer programming, scheduling, and stochastic programming. </p>
+
+<h3>Announcements</h3>
+<dl>
+</dl>
+
+
+<h3>Lecture notes</h3>
+<ol>
+<li> Tue 2/28: Introduction (<a href="lecture1_note.pdf">lecture note</a>)</li>
+</ol>
+
+<h3>Assignments</h3>
+<ol type="1">
+</ol>
+
+</body>
+</html>
+</div>
