@@ -1,0 +1,85 @@
+<div style = "margin-left: auto;margin-right: auto;width: 80em;
+padding-top: 50px;padding-bottom: 50px;">   
+
+<html>
+<head>
+<title>
+IE 539: Convex Optimization
+</title>
+<meta charset="utf-8">
+</head>
+<center><h2>IE 539: Convex Optimization, Fall 2022</h2></center>
+<center><h3>TTh 4:00 - 5:30 pm, E2(산업경영학동) #1501</h3></center>
+
+<body>
+<p><b>Instructor</b>: <a href="https://dabeenl.github.io">Dabeen Lee</a> (E2-2 #2109)</br>
+<b>Office Hours</b>: Wed 2:00 - 4:00 pm</br>
+<b>Email</b>: dabeenl [at] kaist [dot] ac [dot] kr</p>
+
+<p><b>Teaching Assistant</b>: Haeun Jeon (Email: haeun39 [at] kaist [dot] ac [dot] kr)</p>
+
+<p><b>Text</b>: No required text, but the following materials are helpful.</br></br>
+<u>Recommended textbooks and lecture notes</u>
+<ul>
+<li> <a href="https://stanford.edu/~boyd/cvxbook/">Convex Optimization</a> by Boyd and Vandenberghe.</li>
+<li> <a href="https://arxiv.org/abs/1405.4980">Convex Optimization: Algorithms and Complexity</a> by Bubeck.</li>
+<li> <a href="https://www2.isye.gatech.edu/~nemirovs/">Lectures on Modern Convex Optimization</a> by Ben-Tal and Nemirovski.</li>
+</ul></p>
+
+<p><b>Syllabus</b> (<a href="IE539_syllabus.pdf">pdf</a>)</p>
+
+<p>Big data has introduced many opportunities to make better decision-making based on a data-driven approach, and many of the relevant decision-making problems can be posed as optimization models that have special properties such as convexity and smoothness. From this course, a graduate-level student will learn fundamental and comprehensive convex optimization knowledge in theory (convex analysis, optimality conditions, duality) and algorithms (gradient descent and variants, Frank-Wolfe, and proximal methods). We will also cover some application areas including statistical estimation, finance (e.g., portfolio optimization), machine learning, and data science.</p>
+
+<h3>Announcements</h3>
+<dl>
+<dt>- Classroom change: from #1122 to #1501</dt>
+<dt>- Hybrid class on September 6</dt>
+<dt>- Hybrid class on September 8</dt>
+<dt>- No class on October 4 (make-up day for cancelled classes)</dt>
+<dt>- No class on Octoboer 20 (midterm week)</dt>
+<dt>- No class on December 1 (undergraduate entrance exam) </dt>
+<dt>- Take-home final exam on December 13 (due: 11:59 pm on December 14) </dt>
+</dl>
+
+
+<h3>Lecture notes</h3>
+<ol>
+<li> Tue 8/30: Introduction (<a href="lecture0.pdf">slides</a>), Review of linear algebra basics I (<a href="lecture1.pdf">lecture note</a>)</li>
+<li> Thu 9/01: Review of linear algebra basics II, Multivariate calculus review, Convex sets (<a href="lecture2_note.pdf">lecture note</a>)</li>
+<li> Tue 9/06: Convex functions, First-order and Second-order characterizations (<a href="lecture3_note.pdf">lecture note</a>)</li>
+<li> Thu 9/08: Operations preserving convexity, Optimization terminologies, Convex optimization applications I (Portfolio optimization, Uncertainty quantification, Support vector machine) (<a href="lecture4_note.pdf">lecture note</a>)</li>
+<li> Tue 9/13: Convex optimization applications II (LASSO, Facility location), Convex optimization classes I (LP, Convex QP, SDP) (<a href="lecture5_note.pdf">lecture note</a>)</li>
+<li> Thu 9/15: Convex optimization classes II (Conic programming, SOCP), Conic duality (<a href="lecture6_note.pdf">lecture note</a>)</li>
+<li> Tue 9/20: Optimality conditions for convex minimization, Descent method (<a href="lecture7_note.pdf">lecture note</a>)</li>
+<li> Thu 9/22: Introduction to gradient descent, Convergence result for smooth functions (<a href="lecture8_note.pdf">lecture note</a>)</li> 
+<li> Tue 9/27: Convergence of gradient descent, Subgradients, Optimality conditions for non-differentiable functions, Subgradient method (<a href="lecture9_note.pdf">lecture note</a>)</li>    
+<li> Thu 9/29: Smoothness, Strong convexity, Convergence of gradient descent for smooth functions (<a href="lecture10_note.pdf">lecture note</a>)</li> 
+<li> Thu 10/06: More properties of smooth and strongly convex functions, Convergence of gradient descent for smooth functions that are strongly convex (<a href="lecture11_note.pdf">lecture note</a>)</li>
+<li> Tue 10/11: Projected gradient descent, Conditional gradient descent (Frank-Wolfe algorithm), Lower bounds on the iteration complexity of gradient methods (<a href="lecture12_note.pdf">lecture note</a>)</li>
+<li> Thu 10/13: Accelerated gradient descent (Nesterov's acceleration), Online convex optimization (<a href="lecture13_note.pdf">lecture note</a>)</li>
+<li> Tue 10/18: Online binary classification, Stochastic optimization via online convex optimization, Stochastic gradient descent (<a href="lecture14_note.pdf">lecture note</a>)</li>
+<li> Tue 10/25: Analysis of stochastic gradient descent, Mini-batch SGD, Variance reduction (<a href="lecture15_note.pdf">lecture note</a>)</li>
+<li> Tue 11/01: Variance-reduced stochastic methods, SVRG (<a href="lecture16_note.pdf">lecture note</a>)</li>
+<li> Thu 11/03: Proximal operator, Proximal gradient descent (<a href="lecture17_note.pdf">lecture note</a>)</li>
+<li> Tue 11/08: KKT conditions, Lagrangian duality (<a href="lecture18_note.pdf">lecture note</a>)</li>
+<li> Thu 11/10: Saddle point problem, Fenchel Conjugate (<a href="lecture19_note.pdf">lecture note</a>)</li>
+<li> Tue 11/15: Fenchel duality (<a href="lecture20_note.pdf">lecture note</a>)</li>
+<li> Thu 11/17: Dual gradient ascent, Proximal point algorithm (<a href="lecture21_note.pdf">lecture note</a>)</li>
+<li> Tue 11/22: Moreau-Yosida smoothing, Augmented Lagrangian method (<a href="lecture22_note.pdf">lecture note</a>)</li>
+<li> Thu 11/24: Dual proximal gradient, ADMM, Introduction to Newton's method (<a href="lecture23_note.pdf">lecture note</a>)</li>
+<li> Tue 11/29: Convergence of Newton's method (<a href="lecture24_note.pdf">lecture note</a>)</li>
+<li> Tue 12/06: Quasi-Newton method (<a href="lecture25_note.pdf">lecture note</a>)</li> 
+</ol>
+
+<h3>Assignments</h3>
+<ol type="1">
+  <li> Assignment 1 (<a href="assignment1.pdf">pdf</a>)</li>
+  <li> Assignment 2 (<a href="assignment2.pdf">pdf</a>)</li>
+  <li> Assignment 3 (<a href="assignment3.pdf">pdf</a>)</li>
+  <li> Assignment 4 (<a href="assignment4.pdf">pdf</a>)</li>
+  <li> Assignment 5 (<a href="assignment5.pdf">pdf</a>)</li>
+</ol>
+
+</body>
+</html>
+</div>
