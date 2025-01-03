@@ -1,0 +1,45 @@
+<div style = "margin-left: auto;margin-right: auto;width: 80em;
+padding-top: 50px;padding-bottom: 50px;">   
+
+<html>
+<head>
+<title>
+Introduction to Modern Combinatorial Optimization
+</title>
+<meta charset="utf-8">
+</head>
+<center><h2>Introduction to Modern Combinatorial Optimization, 2025 Winter Lecture Series at POSTECH</h2></center>
+<center><h3>January 13 - 17, The Center for Algorithm and Optimization (CALOP) at POSTECH/h3></center>
+
+<body>
+<p><b>Instructor</b>: <a href="https://dabeenl.github.io">Dabeen Lee</a> (Department of Industrial and Systems Engineering, KAIST)</br>
+<b>Email</b>: dabeenl [at] kaist [dot] ac [dot] kr</p>
+
+<p><b>Text</b>: No required text, but the following materials are helpful.</br></br>
+<u>Recommended textbooks and lecture notes</u>
+<ul>
+<li> <a href="https://www.sciencedirect.com/science/article/abs/pii/S0927050705120015">On the History of Combinatorial Optimization (Till 1960)</a> by Alexander Schrijver.</li>
+<li> <a href="https://dwest.web.illinois.edu/igt/">Introduction to Graph Theory</a> by Douglas B. West.</li>
+<li> <a href="https://link.springer.com/book/9783540443896">Combinatorial Optimization: Polyhedra and Efficiency</a> by Alexander Schrijver.</li>
+<li> <a href="https://link.springer.com/book/10.1007/978-3-319-11008-0">Integer Programming</a> by Michele Conforti, Gerald Cornuejols, and Giacomo Zambelli.</li>
+<li> <a href="https://viterbi-web.usc.edu/~shanghua/teaching/Fall2021-670/krause12survey.pdf">Submodular Function Maximization</a> by Andreas Krause and Daniel Golovin.</li>
+</ul></p>
+
+<p><b>Syllabus</b> (<a href="IE539_2024_Syllabus.pdf">pdf</a>)</p>
+
+<p>One of the early developments in combinatorial optimization dates back to 1784 when G. Monge studied the assignment problem in the context of transporting molecules. Later, in the early 20th century, pioneering works on bipartite matching and linear programming came to light. Since then, innovations in combinatorial optimization have revolutionized all areas of operations research and computer science. To date, algorithms and techniques inspired by combinatorial optimization have played a central role in scientific fields including machine learning, artificial intelligence, market design economics, protein structure prediction, and drug design. Motivated by this, this course aims to equip students with an in-depth understanding of comprehensive aspects of combinatorial optimization. We will cover a wide range of topics, from classic results to modern approaches, about fundamental theory and practical algorithms.</p>
+<h3>Lecture notes</h3>
+<ol>
+<li> Lecture 1: </li>
+<li> Lecture 2: </li>
+<li> Lecture 3: </li>
+<li> Lecture 4: </li>
+<li> Lecture 5: </li>
+<li> Lecture 6: </li>
+<li> Lecture 7: </li>
+<li> Lecture 8: </li>
+<li> Lecture 9: </li>
+<li> Lecture 10: </li>
+<li> Lecture 11: </li>
+<li> Lecture 12: </li>
+</ol>
