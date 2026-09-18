@@ -26,11 +26,10 @@ github: ""
 
 # Shown as chips under "Research interests" on the Home page.
 interests:
-  - Bilevel polynomial optimization
-  - Online reinforcement learning theory
-  - Decision-dependent stochastic optimization
-  - First-order methods for constrained optimization
-  - Distributionally robust optimization
+  - Optimization
+  - Algorithms
+  - Foundations of Machine Learning and AI
+  - Mathematical Programming
 
 # Group page
 group_affiliations: "SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST ISysE"
@@ -38,12 +37,8 @@ group_intro: "Students working with Dabeen Lee across SNU Mathematical Sciences,
 group_photo: ""          # e.g. /assets/img/group-2026.jpg  (leave empty to show no photo)
 group_photo_alt: "Group photo"
 
-# Prospective-students box. Markdown allowed. Delete recruiting_short to hide the box on the Home page.
-recruiting_short: "I am [recruiting] [Ph.D. and M.S.] students starting [Spring 2027]. See the Group page for what I look for and how to get in touch."
-recruiting: |
-  I am [recruiting] [Ph.D. and M.S.] students starting [Spring 2027]. I look for a strong background
-  in [optimization, probability, and linear algebra] and an interest in [the theory of learning and
-  decision-making]. Undergraduate research internships are [also available].
-recruiting_contact: |
-  Email dabeenl [at] snu [dot] ac [dot] kr with [your CV and transcript], subject line
-  "[Prospective student]". Please mention [which of my papers you have read].
+# Prospective-students box (Home card + Group page callout). Hidden while these are empty ("").
+# To show it again, put the text back into recruiting_short / recruiting / recruiting_contact (Markdown allowed).
+recruiting_short: ""
+recruiting: ""
+recruiting_contact: ""
