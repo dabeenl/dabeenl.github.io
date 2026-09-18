@@ -1,0 +1,11 @@
+# Home page "News" box. Newest first; the first 6 are shown. Markdown allowed in text.
+- label: Jun 2026
+  text: "New preprints on [constrained online convex optimization without Slater's condition](https://arxiv.org/abs/2606.31480) and on [contextual queueing bandits](https://arxiv.org/abs/2606.09668)."
+- label: ICML 2026
+  text: "*Neural logistic bandits* accepted."
+- label: ICLR 2026
+  text: "Two papers accepted: contextual queueing bandits, and primal–dual policy optimization for linear CMDPs."
+- label: "2026"
+  text: "Co-PI of the new Science Research Center on foundations of mathematical algorithms and security (NRF, 2026–2033)."
+- label: RLC 2025
+  text: "Improved regret bound for safe reinforcement learning; journal version in Reinforcement Learning Journal."

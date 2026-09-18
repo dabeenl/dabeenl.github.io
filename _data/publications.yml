@@ -1,0 +1,383 @@
+# Publications, newest first. Each entry:
+#   title:    put it in "double quotes" (titles often contain colons or apostrophes)
+#   authors:  one string, exactly as it should print. "*" marks the corresponding author,
+#             "(α–β)" marks alphabetical order. Group members and alumni (from members.yml
+#             and alumni.yml) are underlined automatically.
+#   year:     used to group the Publications page
+#   type:     preprint | conference | journal   (drives the chip and the filter buttons)
+#   venue:    short bold name, e.g. "ICML 2026" or "Mathematical Programming"
+#   detail:   optional grey text after the venue (full name, volume/pages, awards)
+#   links:    list of {label, url}; the first one is used as the title link.
+#             Local files are written as "/file.pdf" (they live at the repository root).
+#   featured: true  → shown under "Recent papers" on the Home page (first three)
+
+- title: "Constrained Online Convex Optimization without Slater's Condition"
+  authors: "Kihyun Yu, Junehee Lee, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: June 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2606.31480"
+
+- title: "Algorithm for Contextual Queueing Bandits with Rate-Optimal Queue Length Regret"
+  authors: "Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: June 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2606.09668"
+
+- title: "Learning weakly communicating average-reward CMDPs: strong duality and improved regret"
+  authors: "Kihyun Yu, Beomhan Baek, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: May 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2605.11586"
+
+- title: "Chebyshev center-based direction selection for multi-objective optimization and training PINNs"
+  authors: "Hoyeol Yoon, Seoungbin Bae, Nam Ho-Nguyen, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: May 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2605.09975"
+
+- title: "Logistic bandits with Õ(√dT) regret without context diversity assumptions"
+  authors: "Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: April 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2604.22161"
+
+- title: "Learning to route and schedule LLMs from user retrials via contextual queueing bandits"
+  authors: "Seoungbin Bae, Junyoung Son, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: February 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2602.02061"
+
+- title: "Near-optimal primal-dual algorithm for learning linear mixture CMDPs with adversarial rewards"
+  authors: "Kihyun Yu, Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: CDC 2026
+  detail: IEEE Conference on Decision and Control
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2603.27884"
+
+- title: "Neural logistic bandits"
+  authors: "Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: ICML 2026
+  detail: International Conference on Machine Learning
+  featured: true
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2505.02069"
+
+- title: "Queue length regret bounds for contextual queueing bandits"
+  authors: "Seoungbin Bae, Garyeong Kang, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: ICLR 2026
+  detail: International Conference on Learning Representations
+  featured: true
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2601.19300"
+
+- title: "Primal–dual policy optimization for linear CMDPs with adversarial losses"
+  authors: "Kihyun Yu, Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: ICLR 2026
+  detail: International Conference on Learning Representations
+  links:
+    - label: OpenReview
+      url: "https://openreview.net/forum?id=baP3Dw7bWO"
+
+- title: "A projection-free method for solving convex bilevel optimization problems"
+  authors: "Khanh-Hung Giang-Tran, Nam Ho-Nguyen, Dabeen Lee*"
+  year: 2025
+  type: journal
+  venue: Mathematical Programming
+  detail: "213 (2025) 473–516 · Honorable Mention, INFORMS Undergraduate Operations Research Prize 2024"
+  featured: true
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2311.09738"
+
+- title: "From coordinate subspaces over finite fields to ideal multipartite uniform clutters"
+  authors: "Ahmad Abdi, Dabeen Lee* (α–β)"
+  year: 2025
+  type: journal
+  venue: Mathematical Programming
+  detail: "213 (2025) 823–861"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2306.03613"
+
+- title: "Improved regret bound for safe reinforcement learning via tighter cost pessimism reward optimism"
+  authors: "Kihyun Yu, Duksang Lee, William Overman, Dabeen Lee*"
+  year: 2025
+  type: conference
+  venue: RLC 2025
+  detail: "Reinforcement Learning Conference · journal version in Reinforcement Learning Journal 6 (2025) 493–546"
+  links:
+    - label: paper
+      url: "https://rlj.cs.umass.edu/2025/papers/Paper41.html"
+
+- title: "An optimistic algorithm for online CMDPs with anytime adversarial constraints"
+  authors: "Jiahui Zhu, Kihyun Yu, Dabeen Lee, Xin Liu, Honghao Wei"
+  year: 2025
+  type: conference
+  venue: ICML 2025
+  detail: International Conference on Machine Learning
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2505.21841"
+
+- title: "Reinforcement learning for infinite-horizon average-reward linear MDPs via approximation by discounted-reward MDPs"
+  authors: "Kihyuk Hong, Woojin Chae, Yufan Zhang, Dabeen Lee, Ambuj Tewari"
+  year: 2025
+  type: conference
+  venue: AISTATS 2025
+  detail: International Conference on Artificial Intelligence and Statistics
+  links:
+    - label: paper
+      url: "https://proceedings.mlr.press/v258/hong25a.html"
+
+- title: "Learning infinite-horizon average-reward linear mixture MDPs of bounded span"
+  authors: "Woojin Chae, Kihyuk Hong, Yufan Zhang, Ambuj Tewari, Dabeen Lee*"
+  year: 2025
+  type: conference
+  venue: AISTATS 2025
+  detail: International Conference on Artificial Intelligence and Statistics
+  links:
+    - label: paper
+      url: "https://proceedings.mlr.press/v258/chae25a.html"
+
+- title: "Infinite-horizon reinforcement learning with multinomial logit function approximation"
+  authors: "Jaehyun Park, Junyeop Kwon, Dabeen Lee*"
+  year: 2025
+  type: conference
+  venue: AISTATS 2025
+  detail: International Conference on Artificial Intelligence and Statistics
+  links:
+    - label: paper
+      url: "https://proceedings.mlr.press/v258/park25a.html"
+
+- title: "Conic mixed-binary sets: convex hull characterizations and applications"
+  authors: "Fatma Kılınç-Karzan, Simge Küçükyavuz, Dabeen Lee*, Soroosh Shafieezadeh-Abadeh (α–β)"
+  year: 2025
+  type: journal
+  venue: Operations Research
+  detail: "73(1) (2025) 251–269"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2012.14698"
+
+- title: "Stochastic-constrained stochastic optimization with Markovian data"
+  authors: "Yeongjong Kim, Dabeen Lee*"
+  year: 2024
+  type: journal
+  venue: Journal of Machine Learning Research
+  detail: "25(416) (2024) 1–69"
+  links:
+    - label: paper
+      url: "http://jmlr.org/papers/v25/23-1630.html"
+
+- title: "Parameter-free algorithms for performative regret minimization under decision-dependent distributions"
+  authors: "Sungwoo Park, Junyeop Kwon, Byeongnoh Kim, Suhyun Chae, Jeeyong Lee, Dabeen Lee*"
+  year: 2024
+  type: preprint
+  venue: arXiv
+  detail: February 2024
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2402.15188"
+
+- title: "Strong formulations for distributionally robust chance-constrained programs with left-hand side uncertainty under Wasserstein ambiguity"
+  authors: "Nam Ho-Nguyen, Fatma Kılınç-Karzan, Simge Küçükyavuz, Dabeen Lee* (α–β)"
+  year: 2023
+  type: journal
+  venue: INFORMS Journal on Optimization
+  detail: "5(2) (2023) 211–232"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2007.06750"
+
+- title: "Test score algorithms for budgeted stochastic utility maximization"
+  authors: "Dabeen Lee*, Milan Vojnovic, Se-Young Yun"
+  year: 2023
+  type: journal
+  venue: INFORMS Journal on Optimization
+  detail: "5(1) (2023) 27–67"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2012.15194"
+
+- title: "Distributionally robust chance-constrained programs with right-hand side uncertainty under Wasserstein ambiguity"
+  authors: "Nam Ho-Nguyen, Fatma Kılınç-Karzan, Simge Küçükyavuz, Dabeen Lee* (α–β)"
+  year: 2022
+  type: journal
+  venue: Mathematical Programming
+  detail: "196 (2022) 641–672"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2003.12685"
+
+- title: "Joint chance-constrained programs and the intersection of mixing sets through a submodularity lens"
+  authors: "Fatma Kılınç-Karzan, Simge Küçükyavuz, Dabeen Lee* (α–β)"
+  year: 2022
+  type: journal
+  venue: Mathematical Programming
+  detail: "195 (2022) 283–326"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/1910.01353"
+
+- title: "On a generalization of the Chvátal-Gomory closure"
+  authors: "Sanjeeb Dash, Oktay Günlük, Dabeen Lee* (α–β)"
+  year: 2022
+  type: journal
+  venue: Mathematical Programming
+  detail: "192 (2022) 149–175 · conference version in IPCO 2020, LNCS 12125 (2020) 117–129"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2007.04880"
+    - label: IPCO pdf
+      url: /scg-IPCO.pdf
+
+- title: "Idealness of k-wise intersecting families"
+  authors: "Ahmad Abdi, Gérard Cornuéjols, Tony Huynh, Dabeen Lee (α–β)"
+  year: 2022
+  type: journal
+  venue: Mathematical Programming
+  detail: "192 (2022) 29–50 · conference version in IPCO 2020, LNCS 12125 (2020) 1–12"
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/1912.00614"
+    - label: erratum
+      url: "https://link.springer.com/article/10.1007/s10107-022-01773-z"
+    - label: IPCO pdf
+      url: /kwise-IPCO.pdf
+
+- title: "Scheduling jobs with stochastic holding costs"
+  authors: "Dabeen Lee*, Milan Vojnovic"
+  year: 2021
+  type: conference
+  venue: NeurIPS 2021
+  detail: "Conference on Neural Information Processing Systems 34 (2021) 19375–19384"
+  links:
+    - label: paper
+      url: "https://openreview.net/pdf?id=B_jLF98u13"
+
+- title: "Generalized Chvátal-Gomory closures for integer programs with bounds on variables"
+  authors: "Sanjeeb Dash, Oktay Günlük, Dabeen Lee* (α–β)"
+  year: 2021
+  type: journal
+  venue: Mathematical Programming
+  detail: "190 (2021) 393–425"
+  links:
+    - label: pdf
+      url: /scg.pdf
+
+- title: "Resistant sets in the unit hypercube"
+  authors: "Ahmad Abdi, Gérard Cornuéjols, Dabeen Lee (α–β)"
+  year: 2021
+  type: journal
+  venue: Mathematics of Operations Research
+  detail: "46 (2021) 82–114"
+  links:
+    - label: pdf
+      url: /resistant.pdf
+
+- title: "Intersecting restrictions in clutters"
+  authors: "Ahmad Abdi, Gérard Cornuéjols, Dabeen Lee (α–β)"
+  year: 2020
+  type: journal
+  venue: Combinatorica
+  detail: "40 (2020) 605–623"
+  links:
+    - label: pdf
+      url: /int_rest.pdf
+
+- title: "Cuboids, a class of clutters"
+  authors: "Ahmad Abdi, Gérard Cornuéjols, Natália Guričanová, Dabeen Lee (α–β)"
+  year: 2020
+  type: journal
+  venue: Journal of Combinatorial Theory B
+  detail: "142 (2020) 144–209"
+  links:
+    - label: pdf
+      url: /cuboids.pdf
+
+- title: "On the rational polytopes with Chvátal rank 1"
+  authors: "Gérard Cornuéjols, Dabeen Lee*, Yanjun Li (α–β)"
+  year: 2020
+  type: journal
+  venue: Mathematical Programming
+  detail: "179 (2020) 21–46"
+  links:
+    - label: pdf
+      url: /ChvatalRank1.pdf
+
+- title: "Identically self-blocking clutters"
+  authors: "Ahmad Abdi, Gérard Cornuéjols, Dabeen Lee (α–β)"
+  year: 2019
+  type: conference
+  venue: IPCO 2019
+  detail: "Integer Programming and Combinatorial Optimization, LNCS 11480 (2019) 1–12"
+  links:
+    - label: pdf
+      url: /ISBC.pdf
+
+- title: "On the NP-hardness of deciding emptiness of the split closure of a rational polytope in the 0,1 hypercube"
+  authors: "Dabeen Lee*"
+  year: 2019
+  type: journal
+  venue: Discrete Optimization
+  detail: "32 (2019) 11–18"
+  links:
+    - label: pdf
+      url: /EmptySplitClosure.pdf
+
+- title: "Deltas, extended odd holes and their blockers"
+  authors: "Ahmad Abdi, Dabeen Lee (α–β)"
+  year: 2019
+  type: journal
+  venue: Journal of Combinatorial Theory B
+  detail: "136 (2019) 193–203"
+  links:
+    - label: pdf
+      url: /odd_holes.pdf
+
+- title: "On some polytopes contained in the 0,1 hypercube that have a small Chvátal rank"
+  authors: "Gérard Cornuéjols, Dabeen Lee (α–β)"
+  year: 2018
+  type: journal
+  venue: Mathematical Programming
+  detail: "172 (2018) 467–503 · conference version in IPCO 2016, LNCS 9682 (2016) 300–311 · Second place, INFORMS Optimization Society Student Paper Prize 2019"
+  links:
+    - label: pdf
+      url: /ChvatalRank.pdf
+    - label: IPCO pdf
+      url: /ChvatalRankIPCO.pdf

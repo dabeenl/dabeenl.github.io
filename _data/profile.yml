@@ -1,0 +1,49 @@
+# Who you are. Used by the Home page hero, the Group page, and <head> metadata.
+# Anything in [square brackets] is a placeholder for you to fill in or delete.
+
+name: Dabeen Lee
+title: Assistant Professor, Department of Mathematical Sciences, Seoul National University
+affiliations:
+  - Affiliate Professor, Interdisciplinary Program in AI, Seoul National University
+  - Affiliate Professor, Center for AI and Natural Sciences, Korea Institute for Advanced Study
+
+# Used in the footer.
+department: Department of Mathematical Sciences
+university: Seoul National University
+
+office: "27-205"
+phone: "02-880-1328"
+email: "dabeenl [at] snu [dot] ac [dot] kr"
+
+photo: /assets/img/dabeen.jpg
+cv: /CV_Dabeen_Lee.pdf
+
+# Link buttons. Leave a value empty ("") and its button disappears.
+scholar: ""     # e.g. https://scholar.google.com/citations?user=XXXXXXXX
+arxiv: ""       # e.g. https://arxiv.org/a/lee_d_1
+dblp: ""        # e.g. https://dblp.org/pid/XXX
+github: ""
+
+# Shown as chips under "Research interests" on the Home page.
+interests:
+  - Bilevel polynomial optimization
+  - Online reinforcement learning theory
+  - Decision-dependent stochastic optimization
+  - First-order methods for constrained optimization
+  - Distributionally robust optimization
+
+# Group page
+group_affiliations: "SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST ISysE"
+group_intro: "Students working with Dabeen Lee across SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST Industrial and Systems Engineering."
+group_photo: ""          # e.g. /assets/img/group-2026.jpg  (leave empty to show no photo)
+group_photo_alt: "Group photo"
+
+# Prospective-students box. Markdown allowed. Delete recruiting_short to hide the box on the Home page.
+recruiting_short: "I am [recruiting] [Ph.D. and M.S.] students starting [Spring 2027]. See the Group page for what I look for and how to get in touch."
+recruiting: |
+  I am [recruiting] [Ph.D. and M.S.] students starting [Spring 2027]. I look for a strong background
+  in [optimization, probability, and linear algebra] and an interest in [the theory of learning and
+  decision-making]. Undergraduate research internships are [also available].
+recruiting_contact: |
+  Email dabeenl [at] snu [dot] ac [dot] kr with [your CV and transcript], subject line
+  "[Prospective student]". Please mention [which of my papers you have read].

@@ -1,0 +1,61 @@
+---
+layout: default
+title: Group
+permalink: /group/
+description: "Students and alumni of Dabeen Lee's group at Seoul National University and KAIST, and information for prospective students."
+---
+{% assign p = site.data.profile %}
+<section class="page-head">
+  <div>
+    <h1>Group</h1>
+    <p class="muted lead">{{ p.group_intro }}</p>
+  </div>
+</section>
+
+{% if p.group_photo and p.group_photo != "" %}
+<img class="group-photo" src="{{ p.group_photo | relative_url }}" alt="{{ p.group_photo_alt }}">
+{% endif %}
+
+{% if p.recruiting and p.recruiting != "" %}
+<section id="prospective" class="callout">
+  <div class="callout-main">
+    <h2>Prospective students</h2>
+    {{ p.recruiting | markdownify }}
+  </div>
+  {% if p.recruiting_contact and p.recruiting_contact != "" %}
+  <div class="callout-side">
+    <span class="eyebrow">How to get in touch</span>
+    {{ p.recruiting_contact | markdownify }}
+  </div>
+  {% endif %}
+</section>
+{% endif %}
+
+<section class="section">
+  <h2>Current members <span class="count">{{ site.data.members.size }}</span></h2>
+  <div class="member-grid">
+  {% for m in site.data.members %}{% include member-card.html member=m %}{% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <h2>Alumni <span class="count">{{ site.data.alumni.size }}</span></h2>
+  <div class="alumni-grid">
+  {% for a in site.data.alumni %}
+    <div class="alumni-row">
+      <div class="alumni-text">
+        {% if a.homepage and a.homepage != "" %}<a class="alumni-name" href="{{ a.homepage }}">{{ a.name }}</a>{% else %}<span class="alumni-name">{{ a.name }}</span>{% endif %}
+        <span class="muted">{{ a.role }}, {{ a.affiliation }}, {{ a.years }}</span>
+      </div>
+      {% if a.now and a.now != "" %}<span class="muted alumni-now">now {{ a.now }}</span>{% endif %}
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+{% if site.data.collaborators %}
+<section class="section">
+  <h2>Collaborators</h2>
+  <p class="collaborators">{% for c in site.data.collaborators %}{% if c.url and c.url != "" %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+</section>
+{% endif %}

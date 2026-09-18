@@ -1,0 +1,43 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+description: "Research grants and industry projects led or co-led by Dabeen Lee."
+---
+<section class="page-head">
+  <div>
+    <h1>Projects</h1>
+    <p class="muted lead">Research grants and industry collaborations, with my role and the funding program for each.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Research grants <span class="count">{{ site.data.projects.grants.size }}</span></h2>
+  <div class="rows">
+  {% for g in site.data.projects.grants %}
+    <article class="row">
+      <span class="row-period">{{ g.period }}</span>
+      <div class="row-text">
+        <span class="row-title">{{ g.title | escape }}</span>
+        <span class="muted">{{ g.program | escape }}{% if g.funder and g.funder != "" %} &middot; {{ g.funder | escape }}{% endif %}</span>
+      </div>
+      {% if g.role and g.role != "" %}<span class="tag tag-role{% if g.role == 'PI' %} tag-pi{% endif %}">{{ g.role }}</span>{% endif %}
+    </article>
+  {% endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <h2>Industry projects <span class="count">{{ site.data.projects.industry.size }}</span></h2>
+  <div class="rows">
+  {% for g in site.data.projects.industry %}
+    <article class="row">
+      <span class="row-period">{{ g.period }}</span>
+      <div class="row-text">
+        <span class="row-title">{{ g.title | escape }}</span>
+        <span class="muted">{{ g.partner | escape }}</span>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</section>

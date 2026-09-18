@@ -1,0 +1,35 @@
+# Site settings (used in <head>, the nav, and the footer)
+title: Dabeen Lee
+description: "Assistant Professor in the Department of Mathematical Sciences at Seoul National University, working on optimization, online learning, and reinforcement learning theory."
+url: "https://dabeenl.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Seoul
+
+markdown: kramdown
+
+# Top navigation, in order. "CV" points at the PDF that already lives at the repository root.
+nav:
+  - title: Home
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: Teaching
+    url: /teaching/
+  - title: Group
+    url: /group/
+  - title: CV
+    url: /CV_Dabeen_Lee.pdf
+
+# Everything else in the repository (course pages such as MA1407.html, PDFs, notebooks)
+# is copied to the published site unchanged, so existing links keep working.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .jekyll-cache
+  - .sass-cache
