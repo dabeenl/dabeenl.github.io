@@ -5,11 +5,7 @@ description: "Dabeen Lee is an assistant professor in the Department of Mathemat
 ---
 ## About
 
-I am an assistant professor in the [Department of Mathematical Sciences](https://www.math.snu.ac.kr) at [Seoul National University (SNU)](https://en.snu.ac.kr). Before joining SNU, I was an assistant professor in the [Department of Industrial and Systems Engineering](https://ie.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/).
-
-I received my Ph.D. from the [Algorithms, Combinatorics, and Optimization (ACO)](http://aco.math.cmu.edu/) program at the [Tepper School of Business, Carnegie Mellon University](https://www.cmu.edu/tepper/), where I was advised by [Gérard Cornuéjols](http://integer.tepper.cmu.edu), and my B.S. in Industrial and Management Engineering from [POSTECH](https://www.postech.ac.kr/eng/).
-
-My research group brings together students from SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST Industrial and Systems Engineering; see the [Group](/group/) page. I teach courses on optimization and algorithms at SNU, with materials under [Teaching](/teaching/), and I have worked with Samsung Electronics and SK hynix on optimization problems arising in memory chip design and testing.
+I am an assistant professor in the [Department of Mathematical Sciences](https://www.math.snu.ac.kr) at [Seoul National University (SNU)](https://en.snu.ac.kr). Before joining SNU, I was an assistant professor in the [Department of Industrial and Systems Engineering](https://ie.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/). I received my Ph.D. from the [Algorithms, Combinatorics, and Optimization (ACO)](http://aco.math.cmu.edu/) program at the [Tepper School of Business](https://www.cmu.edu/tepper/), and my B.S. in Industrial and Management Engineering from [POSTECH](https://www.postech.ac.kr/eng/).
 
 ## Research interests
 
