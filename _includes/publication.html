@@ -19,5 +19,5 @@
     {% for l in c.links %}<a class="pub-link" href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label | escape }}</a>{% endfor %}
   </p>
   {% endif %}
-  {% for a in pub.awards %}<p class="pub-award"><strong>{{ a | escape }}</strong></p>{% endfor %}
+  {% for a in pub.awards %}<p class="pub-award"><strong>{{ a.text | default: a | escape }}</strong>{% if a.url and a.url != "" %} <a class="pub-link" href="{{ a.url }}">{{ a.source | default: "link" | escape }}</a>{% endif %}</p>{% endfor %}
 </article>
