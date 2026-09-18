@@ -1,6 +1,6 @@
 {%- assign m = include.member -%}
 <div class="member-card">
-  {% if m.photo and m.photo != "" %}<img class="avatar" src="{{ m.photo | relative_url }}" alt="">{% else %}<div class="avatar avatar-initials" aria-hidden="true">{% assign parts = m.name | split: " " %}{% for part in parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}</div>{% endif %}
+  {% if m.photo and m.photo != "" %}<img class="avatar" src="{{ m.photo | relative_url }}" alt="{{ m.name | escape }}" width="72" height="72" loading="lazy">{% else %}<div class="avatar avatar-initials" aria-hidden="true">{% assign parts = m.name | split: " " %}{% for part in parts limit: 2 %}{{ part | slice: 0 }}{% endfor %}</div>{% endif %}
   <div class="member-text">
     {% if m.homepage and m.homepage != "" %}<a class="member-name" href="{{ m.homepage }}">{{ m.name }}</a>{% else %}<span class="member-name">{{ m.name }}</span>{% endif %}
     <span class="muted">{% if m.program and m.program != "" %}{{ m.program }} &middot; {% endif %}{{ m.affiliation }}</span>

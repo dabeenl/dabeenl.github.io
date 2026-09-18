@@ -264,7 +264,7 @@ a.row-title:hover { color: var(--accent); }
   border: 1px solid var(--rule);
   border-radius: 10px;
 }
-.avatar { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+.avatar { width: 72px; height: 72px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .avatar-initials {
   display: flex;
   align-items: center;
