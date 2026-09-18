@@ -5,7 +5,7 @@ description: "Dabeen Lee is an assistant professor in the Department of Mathemat
 ---
 ## About
 
-I am an assistant professor in the [Department of Mathematical Sciences](https://www.math.snu.ac.kr) at [Seoul National University (SNU)](https://en.snu.ac.kr). Before joining SNU, I was an assistant professor in the [Department of Industrial and Systems Engineering](https://ie.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/). I received my Ph.D. from the [Algorithms, Combinatorics, and Optimization (ACO)](http://aco.math.cmu.edu/) program at the [Tepper School of Business](https://www.cmu.edu/tepper/), and my B.S. in Industrial and Management Engineering from [POSTECH](https://www.postech.ac.kr/eng/).
+I am an assistant professor in the [Department of Mathematical Sciences](https://www.math.snu.ac.kr) at [Seoul National University (SNU)](https://en.snu.ac.kr). Before joining SNU, I was an assistant professor in the [Department of Industrial and Systems Engineering](https://ie.kaist.ac.kr) at [KAIST](https://www.kaist.ac.kr/en/). Before that I completed my alternative military service as a post-doc with [Sang-il Oum](https://dimag.ibs.re.kr/home/sangil/) in the [Discrete Mathematics Group](https://dimag.ibs.re.kr/) at the Institute for Basic Science (IBS), where I received the [IBS Young Scientist Fellowship (YSF)](https://www.ibs.re.kr/ysf/). I received my Ph.D. from the [Algorithms, Combinatorics, and Optimization (ACO)](http://aco.math.cmu.edu/) program at the [Tepper School of Business](https://www.cmu.edu/tepper/), and my B.S. in Industrial and Management Engineering from [POSTECH](https://www.postech.ac.kr/eng/).
 
 ## Research interests
 
