@@ -159,6 +159,7 @@ p { margin: 0 0 1em; }
 a.pub-title:hover { color: var(--accent); }
 .pub-authors { font-size: 15px; color: var(--muted); margin: 0; }
 .member { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.pub-award { margin: 0; font-size: 14px; }
 .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 14px; margin: 0; }
 .pub-venue { font-weight: 700; }
 .pub-link { font-weight: 600; text-decoration: none; }
