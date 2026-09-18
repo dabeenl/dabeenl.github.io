@@ -46,7 +46,16 @@ p { margin: 0 0 1em; }
 .page { padding: 48px 24px 56px; }
 
 /* Header and navigation */
-.site-header { border-bottom: 1px solid var(--rule); }
+html { scroll-padding-top: 96px; }
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid var(--rule);
+  background: rgba(251, 250, 247, 0.92);
+  -webkit-backdrop-filter: saturate(1.4) blur(10px);
+  backdrop-filter: saturate(1.4) blur(10px);
+}
 .header-inner {
   display: flex;
   align-items: center;
@@ -307,9 +316,22 @@ a.alumni-name:hover { color: var(--accent); }
 @media (max-width: 640px) {
   body { font-size: 16px; }
   h1, .hero-name { font-size: 36px; }
-  .page { padding: 28px 20px 40px; }
-  .container { padding: 0 20px; }
-  .site-nav { gap: 2px 20px; }
+  .container { padding-left: 20px; padding-right: 20px; }
+  .page { padding: 32px 20px 40px; }
+  .header-inner { min-height: 0; gap: 2px 24px; padding-top: 10px; padding-bottom: 0; }
+  .site-name { font-size: 21px; }
+  .site-nav {
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+    padding: 0 20px;
+    flex-wrap: nowrap;
+    gap: 0 13px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { flex-shrink: 0; white-space: nowrap; font-size: 14px; padding: 8px 0 9px; }
   .hero { flex-direction: column; gap: 16px; }
   .hero-photo { width: 120px; height: 150px; }
   .hero-contact { flex-direction: column; gap: 2px; }

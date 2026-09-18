@@ -33,8 +33,9 @@ interests:
   - Foundations of Machine Learning and Artificial Intelligence
 
 # Group page
+lab_name: "Optimization and Algorithms Lab"
 group_affiliations: "SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST ISE"
-group_intro: "Students working with Dabeen Lee across SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST Industrial and Systems Engineering."
+group_intro: "The Optimization and Algorithms Lab brings together students working with Dabeen Lee across SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST Industrial and Systems Engineering."
 group_photo: ""          # e.g. /assets/img/group-2026.jpg  (leave empty to show no photo)
 group_photo_alt: "Group photo"
 
