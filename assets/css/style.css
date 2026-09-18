@@ -197,7 +197,7 @@ a.pub-title:hover { color: var(--accent); }
 .filter:hover { border-color: var(--accent); }
 .filter.active { background: var(--accent); border-color: var(--accent); color: #FFFFFF; }
 .year-block { display: flex; gap: 40px; align-items: flex-start; margin-top: 28px; }
-.year { width: 96px; flex-shrink: 0; font-size: 34px; line-height: 1.1; padding-top: 12px; }
+.year { width: 150px; flex-shrink: 0; font-size: 34px; line-height: 1.1; padding-top: 12px; }
 .year-block .pub-list { flex-grow: 1; min-width: 0; }
 
 /* Rows (projects, teaching) */

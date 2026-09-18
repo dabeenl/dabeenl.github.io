@@ -12,7 +12,8 @@
 #   featured: true  → shown under "Recent papers" on the Home page (first three)
 #   conference: optional {venue, detail, links} for a conference version of a journal paper;
 #             it is shown on its own line under the journal line.
-#   awards:   optional list; each item is shown in bold on its own line under the paper.
+#   awards:   optional list of {text, url, source}; each item is shown in bold on its own line
+#             under the paper, with the url as a small "source" link next to it (url/source optional).
 
 - title: "Constrained Online Convex Optimization without Slater's Condition"
   authors: "Kihyun Yu, Junehee Lee, Dabeen Lee*"
@@ -123,7 +124,9 @@
   venue: Mathematical Programming
   detail: "213 (2025) 473–516"
   awards:
-    - "Honorable Mention, INFORMS Undergraduate Operations Research Prize, 2024"
+    - text: "Honorable Mention, INFORMS Undergraduate Operations Research Prize, 2024"
+      url: "https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Undergraduate-Operations-Research-Prize"
+      source: INFORMS
   featured: true
   links:
     - label: arXiv
@@ -393,8 +396,12 @@
   venue: Mathematical Programming
   detail: "172 (2018) 467–503"
   awards:
-    - "Second Place, INFORMS Optimization Society Student Paper Prize, 2019"
-    - "Egon Balas Award, Tepper School of Business, CMU, 2016"
+    - text: "Second Place, INFORMS Optimization Society Student Paper Prize, 2019"
+      url: "https://www.informs.org/Recognizing-Excellence/Award-Recipients/Dabeen-Lee"
+      source: INFORMS
+    - text: "Egon Balas Award, Tepper School of Business, CMU, 2016"
+      url: "https://www.cmu.edu/tepper/programs/phd/student-awards"
+      source: Tepper
   links:
     - label: pdf
       url: /ChvatalRank.pdf
