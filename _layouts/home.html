@@ -29,6 +29,7 @@ layout: default
     {% if p.interests %}
     <div class="chips">{% for t in p.interests %}<span class="chip">{{ t | escape }}</span>{% endfor %}</div>
     {% endif %}
+    {% include research-figures.html %}
 
     <section class="section">
       <h2>Recent papers</h2>
