@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<nav class="crumbs" aria-label="Breadcrumb"><a href="{{ '/teaching/' | relative_url }}">Teaching</a><span aria-hidden="true">/</span><span>{{ page.institution | escape }}</span></nav>
+<section class="course-hero">
+  <div class="course-hero-text">
+    <div class="course-chips">{% if page.term and page.term != "" %}<span class="chip">{{ page.term | escape }}</span>{% endif %}</div>
+    <h1>{{ page.title | escape }}</h1>
+    {% for s in page.schedule %}<p class="muted course-schedule">{{ s | escape }}</p>{% endfor %}
+  </div>
+  {% if page.figure and page.figure != "" %}<div class="course-hero-fig">{% include figures/{{ page.figure }}.svg %}</div>{% endif %}
+</section>
+
+<div class="course-grid">
+{{ content }}
+</div>
+
+<script>
+(function () {
+  // Lays out list items written as "Tue 9/02: topics (<a>note</a>, <a>slides</a>)" into label / topic / buttons.
+  var LINKS = /^([\s\S]*?)\s*\(((?:\s*<a\b[^>]*>[\s\S]*?<\/a>\s*(?:,|and)?\s*)+)\)\s*\.?\s*$/;
+  var LABEL = /^\s*((?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+\d{1,2}\/\d{1,2}|Lecture\s+\d+|Assignment\s+\d+|Homework\s+\d+)\s*[:,]?\s*([\s\S]*)$/;
+  document.querySelectorAll('.course-main ol').forEach(function (ol) {
+    var items = ol.querySelectorAll(':scope > li'), hits = 0;
+    items.forEach(function (li) {
+      var html = li.innerHTML.trim(), links = '', m = html.match(LINKS);
+      if (m) { html = m[1]; links = m[2]; }
+      var d = html.match(LABEL), label = d ? d[1] : '', topic = d ? d[2] : html;
+      if (!m && !d) { return; }
+      hits += 1;
+      var box = document.createElement('div');
+      box.innerHTML = links;
+      var buttons = Array.prototype.map.call(box.querySelectorAll('a'), function (a) { a.className = 'btn-link'; return a.outerHTML; }).join('');
+      li.className = 'lec';
+      li.innerHTML = '<span class="lec-label">' + label + '</span><span class="lec-topic">' + topic + '</span><span class="lec-links">' + buttons + '</span>';
+    });
+    if (hits) { ol.classList.add('lec-list'); }
+  });
+})();
+</script>
