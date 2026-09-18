@@ -7,7 +7,7 @@ description: "Research grants and industry projects led or co-led by Dabeen Lee.
 <section class="page-head">
   <div>
     <h1>Projects</h1>
-    <p class="muted lead">Research grants and industry collaborations, with my role and the funding program for each.</p>
+    <p class="muted lead">Research grants and industry collaborations, with the funding program for each.</p>
   </div>
 </section>
 
@@ -21,7 +21,6 @@ description: "Research grants and industry projects led or co-led by Dabeen Lee.
         <span class="row-title">{{ g.title | escape }}</span>
         <span class="muted">{{ g.program | escape }}{% if g.funder and g.funder != "" %} &middot; {{ g.funder | escape }}{% endif %}</span>
       </div>
-      {% if g.role and g.role != "" %}<span class="tag tag-role{% if g.role == 'PI' %} tag-pi{% endif %}">{{ g.role }}</span>{% endif %}
     </article>
   {% endfor %}
   </div>

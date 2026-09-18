@@ -1,40 +1,33 @@
-# Projects page. role: PI or Co-PI (shown as a chip).
+# Projects page.
 grants:
   - period: 2026 – 2033
     title: Center for foundations of mathematical algorithms and security
     program: Science Research Center (SRC)
     funder: National Research Foundation of Korea
-    role: Co-PI
   - period: 2026 – 2032
     title: "SOTA-MATH: center for specialized orchestration and training of AI for frontier mathematics"
     program: AI4S&T
     funder: National Research Foundation of Korea
-    role: Co-PI
   - period: 2026 – 2031
     title: "Beyond transformer, beyond next-token prediction: hierarchical spectral state-space model with mathematical guarantees and unified learning algorithms"
     program: Next Generation AI+S&T
     funder: National Research Foundation of Korea
-    role: Co-PI
   - period: 2024 – 2031
     title: Intelligent national defense swarm system
     program: ITRC
     funder: Institute for Information & Communications Technology Planning & Evaluation (IITP)
-    role: Co-PI
   - period: 2024 – 2027
     title: Artificial intelligence-based end-to-end framework for black-box combinatorial optimization
     program: Young Researcher Grant
     funder: National Research Foundation of Korea
-    role: PI
   - period: 2024 – 2025
     title: Deep learning foundation model for combinatorial optimization and its applications to various industrial problems
     program: Basic Research Lab (BRL)
     funder: National Research Foundation of Korea
-    role: Co-PI
   - period: 2021 – 2023
     title: Combinatorial optimization for data-driven decision making
     program: Young Scientist Fellowship (YSF)
     funder: Institute for Basic Science
-    role: PI
 
 industry:
   - period: "2025"
