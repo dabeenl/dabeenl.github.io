@@ -57,6 +57,8 @@
   photo: /assets/img/members/gildong.jpg   # 없으면 줄 삭제 → 이니셜 표시
 ```
 
+사진은 정사각형으로 잘라 400px 정도로 줄여 `assets/img/members/`에 넣습니다(카드에서는 72px 원으로 보입니다).
+
 졸업하면 `members.yml`에서 지우고 `alumni.yml`에 옮겨 적습니다(`now:`에 현재 소속을 적으면 함께 표시).
 
 ## 뉴스 추가하기
