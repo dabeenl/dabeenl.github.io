@@ -318,9 +318,42 @@ a.alumni-name:hover { color: var(--accent); }
 .offering-term { flex-shrink: 0; min-width: 66px; font-weight: 700; color: var(--ink); }
 .row-fig { width: 264px; flex-shrink: 0; align-self: center; }
 
+/* Course pages */
+.crumbs { display: flex; gap: 8px; align-items: center; font-size: 14px; color: var(--muted); margin-bottom: 18px; }
+.crumbs a { font-weight: 600; text-decoration: none; }
+.course-hero { display: flex; gap: 36px; align-items: center; justify-content: space-between; padding: 28px 32px; margin-bottom: 36px; background: var(--surface); border: 1px solid var(--rule); border-radius: 16px; box-shadow: 0 1px 2px rgba(28, 28, 33, 0.04); }
+.course-hero-text { min-width: 0; }
+.course-hero h1 { font-size: 36px; line-height: 1.15; }
+.course-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.course-schedule { margin: 10px 0 0; font-size: 17px; }
+.course-hero-fig { width: 270px; flex-shrink: 0; overflow: hidden; border: 1px solid var(--rule); border-radius: 12px; }
+.course-hero-fig svg { display: block; width: 100%; height: auto; }
+.course-grid { display: grid; grid-template-columns: minmax(0, 1fr) 330px; gap: 48px; align-items: start; }
+.course-main { grid-column: 1; grid-row: 1; min-width: 0; }
+.course-info { grid-column: 2; grid-row: 1; position: sticky; top: 96px; display: flex; flex-direction: column; gap: 16px; padding: 22px 24px; background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; font-size: 15px; line-height: 1.55; }
+.info-item + .info-item { padding-top: 16px; border-top: 1px solid var(--rule); }
+.info-item ul { margin: 8px 0 0; padding-left: 18px; font-size: 14px; line-height: 1.45; }
+.info-item li + li { margin-top: 6px; }
+.info-item u { text-decoration: none; font-style: italic; }
+.course-desc p { font-size: 17px; line-height: 1.6; }
+.course-main h2 { margin: 40px 0 8px; padding-bottom: 10px; border-bottom: 1px solid var(--rule); }
+.course-main ol, .course-main ul, .course-main dl { margin: 12px 0 0; padding-left: 22px; line-height: 1.5; }
+.course-main li + li { margin-top: 6px; }
+.lec-list { list-style: none; padding-left: 0 !important; margin-top: 0 !important; counter-reset: lec; }
+.lec { counter-increment: lec; display: grid; grid-template-columns: 30px 84px minmax(0, 1fr) auto; gap: 4px 14px; align-items: baseline; padding: 11px 0; margin: 0 !important; border-bottom: 1px solid var(--rule); }
+.lec::before { content: counter(lec); font-family: var(--font-display); font-size: 17px; color: var(--muted); text-align: right; }
+.lec-label { font-size: 14px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+.lec-topic::first-letter { text-transform: uppercase; }
+.lec-links { display: flex; flex-wrap: wrap; gap: 6px; justify-content: flex-end; }
+.btn-link { display: inline-block; padding: 3px 11px; border-radius: 999px; background: var(--accent-tint); color: var(--accent); font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.btn-link:hover { background: var(--accent); color: #FFFFFF; }
+
 /* Responsive */
 @media (max-width: 960px) {
   .two-col { grid-template-columns: minmax(0, 1fr); }
+  .course-grid { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .course-main, .course-info { grid-column: 1; grid-row: auto; }
+  .course-info { position: static; }
   .member-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .callout { flex-direction: column; gap: 20px; }
   .callout-side { width: auto; padding-left: 0; border-left: 0; padding-top: 16px; border-top: 1px solid var(--accent-line); }
@@ -350,6 +383,14 @@ a.alumni-name:hover { color: var(--accent); }
   .member-grid, .alumni-grid { grid-template-columns: minmax(0, 1fr); }
   .year-block { flex-direction: column; gap: 8px; }
   .year { width: auto; padding-top: 0; }
+  .course-hero { flex-direction: column-reverse; align-items: stretch; gap: 18px; padding: 18px; }
+  .course-hero h1 { font-size: 28px; }
+  .course-hero-fig { width: 100%; }
+  .lec { grid-template-columns: 24px minmax(0, 1fr) auto; }
+  .lec::before { grid-row: 1; grid-column: 1; }
+  .lec-label { grid-row: 1; grid-column: 2; }
+  .lec-links { grid-row: 1; grid-column: 3; }
+  .lec-topic { grid-row: 2; grid-column: 2 / -1; }
   .row { flex-direction: column; gap: 6px; }
   .row-fig { width: 100%; max-width: 340px; align-self: flex-start; margin-top: 8px; }
   .course { grid-template-columns: 112px minmax(0, 1fr); gap: 14px; align-items: start; }
