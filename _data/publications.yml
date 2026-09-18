@@ -12,6 +12,7 @@
 #   featured: true  → shown under "Recent papers" on the Home page (first three)
 #   conference: optional {venue, detail, links} for a conference version of a journal paper;
 #             it is shown on its own line under the journal line.
+#   awards:   optional list; each item is shown in bold on its own line under the paper.
 
 - title: "Constrained Online Convex Optimization without Slater's Condition"
   authors: "Kihyun Yu, Junehee Lee, Dabeen Lee*"
@@ -120,7 +121,9 @@
   year: 2025
   type: journal
   venue: Mathematical Programming
-  detail: "213 (2025) 473–516 · Honorable Mention, INFORMS Undergraduate Operations Research Prize 2024"
+  detail: "213 (2025) 473–516"
+  awards:
+    - "Honorable Mention, INFORMS Undergraduate Operations Research Prize, 2024"
   featured: true
   links:
     - label: arXiv
@@ -388,7 +391,10 @@
   year: 2018
   type: journal
   venue: Mathematical Programming
-  detail: "172 (2018) 467–503 · Second place, INFORMS Optimization Society Student Paper Prize 2019"
+  detail: "172 (2018) 467–503"
+  awards:
+    - "Second Place, INFORMS Optimization Society Student Paper Prize, 2019"
+    - "Egon Balas Award, Tepper School of Business, CMU, 2016"
   links:
     - label: pdf
       url: /ChvatalRank.pdf

@@ -159,6 +159,7 @@ p { margin: 0 0 1em; }
 a.pub-title:hover { color: var(--accent); }
 .pub-authors { font-size: 15px; color: var(--muted); margin: 0; }
 .member { text-decoration: underline; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+.pub-award { margin: 0; font-size: 14px; }
 .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; font-size: 14px; margin: 0; }
 .pub-venue { font-weight: 700; }
 .pub-link { font-weight: 600; text-decoration: none; }
@@ -175,6 +176,9 @@ a.pub-title:hover { color: var(--accent); }
 }
 .tag-conference { background: var(--accent-tint); color: var(--accent); }
 .tag-journal { background: var(--surface); color: var(--accent); border: 1px solid #B9C7E0; }
+.tag-status { display: block; width: max-content; margin-top: 6px; font-family: var(--font-body); }
+.tag-ongoing { background: var(--accent-tint); color: var(--accent); }
+.tag-completed { background: var(--surface-2); color: var(--muted); }
 .tag-role { background: var(--surface); color: var(--accent); border: 1px solid #B9C7E0; flex-shrink: 0; margin-top: 4px; }
 .tag-pi { background: var(--accent); color: #FFFFFF; border-color: var(--accent); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
