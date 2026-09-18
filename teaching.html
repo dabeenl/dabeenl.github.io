@@ -1,0 +1,29 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+description: "Courses taught by Dabeen Lee at Seoul National University and KAIST, with lecture notes and syllabi."
+---
+<section class="page-head">
+  <div>
+    <h1>Teaching</h1>
+    <p class="muted lead">Course pages with lecture notes, syllabi, and assignments.</p>
+  </div>
+</section>
+
+{% for inst in site.data.courses %}
+<section class="section">
+  <h2>{{ inst.institution }}</h2>
+  <div class="rows">
+  {% for c in inst.courses %}
+    <article class="row">
+      <span class="row-period">{{ c.code }}</span>
+      <div class="row-text">
+        {% if c.url and c.url != "" %}<a class="row-title" href="{{ c.url | relative_url }}">{{ c.title | escape }}</a>{% else %}<span class="row-title">{{ c.title | escape }}</span>{% endif %}
+        <span class="muted">{{ c.terms | escape }}</span>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</section>
+{% endfor %}

@@ -1,0 +1,46 @@
+# Current members, in the order they appear on the Group page.
+# program: e.g. "Ph.D. student", "M.S. student", "Undergraduate researcher" — leave empty ("") to hide.
+# photo:   optional, e.g. /assets/img/members/seoungbin-bae.jpg (square works best); initials are shown otherwise.
+# homepage / scholar: optional links.
+- name: Seoungbin Bae
+  program: ""
+  affiliation: KAIST ISE
+  since: 2024
+  homepage: https://sbbae31.github.io
+- name: Kihyun Yu
+  program: ""
+  affiliation: KAIST ISE
+  since: 2024
+  homepage: https://kihyun-yu.github.io
+- name: Hoyeol Yoon
+  program: ""
+  affiliation: KAIST ISE
+  since: 2025
+- name: Junehee Lee
+  program: ""
+  affiliation: SNU Math
+  since: 2025
+- name: Juhyeok Choi
+  program: ""
+  affiliation: SNU Math
+  since: 2025
+- name: Taewoong Eom
+  program: ""
+  affiliation: SNU Math
+  since: 2026
+- name: Jinwoo Kim
+  program: ""
+  affiliation: SNU Math
+  since: 2026
+- name: Euro Kim
+  program: ""
+  affiliation: SNU AI
+  since: 2026
+- name: Jimin Chae
+  program: ""
+  affiliation: SNU Math
+  since: 2026
+- name: Minsuk Yoo
+  program: ""
+  affiliation: SNU Math
+  since: 2026

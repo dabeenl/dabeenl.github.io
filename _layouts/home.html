@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% assign p = site.data.profile %}
+<section class="hero">
+  <img class="hero-photo" src="{{ p.photo | relative_url }}" alt="{{ p.name }}">
+  <div class="hero-text">
+    <h1 class="hero-name">{{ p.name }}</h1>
+    <p class="hero-title">{{ p.title }}</p>
+    <p class="hero-affil">{% for a in p.affiliations %}{{ a }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+    <p class="hero-contact">
+      {% if p.office and p.office != "" %}<span>Office {{ p.office }}</span>{% endif %}
+      {% if p.phone and p.phone != "" %}<span>{{ p.phone }}</span>{% endif %}
+      {% if p.email and p.email != "" %}<span>{{ p.email }}</span>{% endif %}
+    </p>
+    <div class="chip-links">
+      {% if p.cv and p.cv != "" %}<a class="chip-link" href="{{ p.cv | relative_url }}">CV (pdf)</a>{% endif %}
+      {% if p.scholar and p.scholar != "" %}<a class="chip-link" href="{{ p.scholar }}">Google Scholar</a>{% endif %}
+      {% if p.arxiv and p.arxiv != "" %}<a class="chip-link" href="{{ p.arxiv }}">arXiv</a>{% endif %}
+      {% if p.dblp and p.dblp != "" %}<a class="chip-link" href="{{ p.dblp }}">DBLP</a>{% endif %}
+      {% if p.github and p.github != "" %}<a class="chip-link" href="{{ p.github }}">GitHub</a>{% endif %}
+    </div>
+  </div>
+</section>
+
+<div class="two-col">
+  <div class="col-main">
+    {{ content }}
+    {% if p.interests %}
+    <div class="chips">{% for t in p.interests %}<span class="chip">{{ t | escape }}</span>{% endfor %}</div>
+    {% endif %}
+
+    <section class="section">
+      <h2>Recent papers</h2>
+      {% assign featured = site.data.publications | where: "featured", true %}
+      {% if featured.size == 0 %}{% assign featured = site.data.publications | slice: 0, 3 %}{% endif %}
+      <div class="pub-list">
+      {% for pub in featured limit: 3 %}{% include publication.html pub=pub %}{% endfor %}
+      </div>
+      <a class="more-link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
+    </section>
+  </div>
+
+  <aside class="col-side">
+    <section class="card">
+      <h2>News</h2>
+      <ul class="news">
+      {% for n in site.data.news limit: 6 %}
+        <li><span class="news-label">{{ n.label | escape }}</span>{{ n.text | markdownify }}</li>
+      {% endfor %}
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Group</h2>
+      <p>{{ site.data.members.size }} current members across {{ p.group_affiliations }}.</p>
+      <p class="muted">{% for m in site.data.members %}{{ m.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      <a class="more-link" href="{{ '/group/' | relative_url }}">Meet the group &rarr;</a>
+    </section>
+
+    {% if p.recruiting_short and p.recruiting_short != "" %}
+    <section class="card card-tinted">
+      <h2>Prospective students</h2>
+      {{ p.recruiting_short | markdownify }}
+      <a class="more-link" href="{{ '/group/#prospective' | relative_url }}">How to apply &rarr;</a>
+    </section>
+    {% endif %}
+  </aside>
+</div>
