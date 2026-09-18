@@ -14,9 +14,11 @@ description: "Research grants and industry projects led or co-led by Dabeen Lee.
 <section class="section">
   <h2>Research grants <span class="count">{{ site.data.projects.grants.size }}</span></h2>
   <div class="rows">
+  {% assign this_year = site.time | date: "%Y" | plus: 0 %}
   {% for g in site.data.projects.grants %}
+    {% if g.status and g.status != "" %}{% assign status = g.status %}{% else %}{% assign end_year = g.period | split: "–" | last | strip | plus: 0 %}{% if end_year >= this_year %}{% assign status = "ongoing" %}{% else %}{% assign status = "completed" %}{% endif %}{% endif %}
     <article class="row">
-      <span class="row-period">{{ g.period }}</span>
+      <span class="row-period">{{ g.period }}<span class="tag tag-status tag-{{ status }}">{{ status }}</span></span>
       <div class="row-text">
         <span class="row-title">{{ g.title | escape }}</span>
         <span class="muted">{{ g.program | escape }}{% if g.funder and g.funder != "" %} &middot; {{ g.funder | escape }}{% endif %}</span>

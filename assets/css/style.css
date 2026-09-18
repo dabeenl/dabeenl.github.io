@@ -176,6 +176,9 @@ a.pub-title:hover { color: var(--accent); }
 }
 .tag-conference { background: var(--accent-tint); color: var(--accent); }
 .tag-journal { background: var(--surface); color: var(--accent); border: 1px solid #B9C7E0; }
+.tag-status { display: block; width: max-content; margin-top: 6px; font-family: var(--font-body); }
+.tag-ongoing { background: var(--accent-tint); color: var(--accent); }
+.tag-completed { background: var(--surface-2); color: var(--muted); }
 .tag-role { background: var(--surface); color: var(--accent); border: 1px solid #B9C7E0; flex-shrink: 0; margin-top: 4px; }
 .tag-pi { background: var(--accent); color: #FFFFFF; border-color: var(--accent); }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }

@@ -42,27 +42,10 @@ description: "Papers and preprints by Dabeen Lee on optimization, online learnin
       <a class="pub-title" href="{{ '/thesis.pdf' | relative_url }}">Cutting Planes and Integrality of Polyhedra: Structure and Complexity</a>
       <p class="pub-authors">Dabeen Lee</p>
       <p class="pub-meta"><span class="muted">Tepper School of Business, Carnegie Mellon University, 2019</span> <a class="pub-link" href="{{ '/thesis.pdf' | relative_url }}">pdf</a> <a class="pub-link" href="{{ '/defense.pdf' | relative_url }}">slides</a></p>
-      <p class="pub-award"><strong>Gerald L. Thompson Doctoral Dissertation Award, Tepper School of Business, 2019</strong></p>
+      <p class="pub-award"><strong>Gerald L. Thompson Doctoral Dissertation Award, Tepper School of Business, CMU, 2019</strong></p>
     </article>
   </div>
 </section>
-
-{% if site.data.awards %}
-<section class="section">
-  <h2>Honors and awards</h2>
-  <div class="rows">
-  {% for a in site.data.awards %}
-    <article class="row">
-      <span class="row-period">{{ a.year }}</span>
-      <div class="row-text">
-        <span class="row-title"><strong>{{ a.name | escape }}</strong></span>
-        {% if a.org and a.org != "" %}<span class="muted">{{ a.org | escape }}</span>{% endif %}
-      </div>
-    </article>
-  {% endfor %}
-  </div>
-</section>
-{% endif %}
 
 <script>
 (function () {
