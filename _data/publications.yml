@@ -10,6 +10,8 @@
 #   links:    list of {label, url}; the first one is used as the title link.
 #             Local files are written as "/file.pdf" (they live at the repository root).
 #   featured: true  → shown under "Recent papers" on the Home page (first three)
+#   conference: optional {venue, detail, links} for a conference version of a journal paper;
+#             it is shown on its own line under the journal line.
 
 - title: "Constrained Online Convex Optimization without Slater's Condition"
   authors: "Kihyun Yu, Junehee Lee, Dabeen Lee*"
@@ -137,12 +139,15 @@
 - title: "Improved regret bound for safe reinforcement learning via tighter cost pessimism reward optimism"
   authors: "Kihyun Yu, Duksang Lee, William Overman, Dabeen Lee*"
   year: 2025
-  type: conference
-  venue: RLC 2025
-  detail: "Reinforcement Learning Conference · journal version in Reinforcement Learning Journal 6 (2025) 493–546"
+  type: journal
+  venue: Reinforcement Learning Journal
+  detail: "6 (2025) 493–546"
   links:
     - label: paper
       url: "https://rlj.cs.umass.edu/2025/papers/Paper41.html"
+  conference:
+    venue: RLC 2025
+    detail: Reinforcement Learning Conference
 
 - title: "An optimistic algorithm for online CMDPs with anytime adversarial constraints"
   authors: "Jiahui Zhu, Kihyun Yu, Dabeen Lee, Xin Liu, Honghao Wei"
@@ -259,26 +264,34 @@
   year: 2022
   type: journal
   venue: Mathematical Programming
-  detail: "192 (2022) 149–175 · conference version in IPCO 2020, LNCS 12125 (2020) 117–129"
+  detail: "192 (2022) 149–175"
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2007.04880"
-    - label: IPCO pdf
-      url: /scg-IPCO.pdf
+  conference:
+    venue: IPCO 2020
+    detail: "Integer Programming and Combinatorial Optimization, LNCS 12125 (2020) 117–129"
+    links:
+      - label: pdf
+        url: /scg-IPCO.pdf
 
 - title: "Idealness of k-wise intersecting families"
   authors: "Ahmad Abdi, Gérard Cornuéjols, Tony Huynh, Dabeen Lee (α–β)"
   year: 2022
   type: journal
   venue: Mathematical Programming
-  detail: "192 (2022) 29–50 · conference version in IPCO 2020, LNCS 12125 (2020) 1–12"
+  detail: "192 (2022) 29–50"
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/1912.00614"
     - label: erratum
       url: "https://link.springer.com/article/10.1007/s10107-022-01773-z"
-    - label: IPCO pdf
-      url: /kwise-IPCO.pdf
+  conference:
+    venue: IPCO 2020
+    detail: "Integer Programming and Combinatorial Optimization, LNCS 12125 (2020) 1–12"
+    links:
+      - label: pdf
+        url: /kwise-IPCO.pdf
 
 - title: "Scheduling jobs with stochastic holding costs"
   authors: "Dabeen Lee*, Milan Vojnovic"
@@ -375,9 +388,13 @@
   year: 2018
   type: journal
   venue: Mathematical Programming
-  detail: "172 (2018) 467–503 · conference version in IPCO 2016, LNCS 9682 (2016) 300–311 · Second place, INFORMS Optimization Society Student Paper Prize 2019"
+  detail: "172 (2018) 467–503 · Second place, INFORMS Optimization Society Student Paper Prize 2019"
   links:
     - label: pdf
       url: /ChvatalRank.pdf
-    - label: IPCO pdf
-      url: /ChvatalRankIPCO.pdf
+  conference:
+    venue: IPCO 2016
+    detail: "Integer Programming and Combinatorial Optimization, LNCS 9682 (2016) 300–311"
+    links:
+      - label: pdf
+        url: /ChvatalRankIPCO.pdf

@@ -56,7 +56,7 @@ description: "Papers and preprints by Dabeen Lee on optimization, online learnin
       var filter = button.getAttribute('data-filter');
       buttons.forEach(function (b) { b.classList.toggle('active', b === button); });
       pubs.forEach(function (pub) {
-        pub.hidden = !(filter === 'all' || pub.getAttribute('data-type') === filter);
+        pub.hidden = !(filter === 'all' || pub.getAttribute('data-type') === filter || (filter === 'conference' && pub.hasAttribute('data-conference')));
       });
       blocks.forEach(function (block) {
         block.hidden = !block.querySelector('.pub:not([hidden])');

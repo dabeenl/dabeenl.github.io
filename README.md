@@ -41,6 +41,7 @@
 - `authors`의 이름이 `members.yml`이나 `alumni.yml`에 있으면 자동으로 밑줄이 그어집니다. `*`는 교신저자, `(α–β)`는 알파벳 순 표시로 그대로 적습니다.
 - `featured: true`를 추가하면 홈 화면 "Recent papers"에 보입니다(앞에서부터 3편).
 - 첫 번째 링크가 제목 링크로 쓰입니다.
+- 저널 논문에 학회 버전이 있으면 `conference:` 아래에 `venue`, `detail`, `links`를 적습니다. 저널 줄 아래에 Conference 줄로 표시되고, 학회 필터에서도 함께 보입니다.
 
 ## 멤버 추가하기
 
