@@ -11,7 +11,8 @@
 | 멤버 추가·졸업 처리 | `_data/members.yml`, `_data/alumni.yml` |
 | 뉴스 한 줄 추가 | `_data/news.yml` |
 | 연구과제·산학과제 | `_data/projects.yml` |
-| 강의 목록 | `_data/courses.yml` (강의 페이지 자체는 지금처럼 `MA1407.html` 등을 직접 편집) |
+| 강의 목록, 연도별 토픽 | `_data/courses.yml` (`offerings:`에 학기·토픽을 적음. 강의 페이지 자체는 지금처럼 `MA1407.html` 등을 직접 편집) |
+| 강의·과제·홈 그림 | 그림은 `python3 _tools/make_figures.py`로 생성됩니다(색·모양은 그 스크립트에서 수정). 직접 그린 SVG를 써도 됩니다: `_includes/figures/*.svg` 파일을 만들고 `courses.yml`/`projects.yml`의 `figure:`에 파일 이름(확장자 제외)을 적음. 비우면 그림 없이 표시 |
 | 소개 글, 연구 관심사 문단 | `index.md` |
 | 연락처, 링크 버튼, 관심사 칩, 모집 안내 문구, 단체 사진 | `_data/profile.yml` |
 | 공동연구자 목록 | `_data/collaborators.yml` |
