@@ -26,11 +26,12 @@ github: ""
 
 # Shown as chips under "Research interests" on the Home page.
 interests:
-  - Bilevel polynomial optimization
-  - Online reinforcement learning theory
+  - Online learning and bandits
+  - Reinforcement learning theory
+  - Constrained and bilevel optimization
   - Decision-dependent stochastic optimization
-  - First-order methods for constrained optimization
   - Distributionally robust optimization
+  - Integer programming and polyhedral theory
 
 # Group page
 group_affiliations: "SNU Mathematical Sciences, the SNU Interdisciplinary Program in AI, and KAIST ISysE"
