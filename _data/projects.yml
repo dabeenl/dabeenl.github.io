@@ -2,43 +2,54 @@
 # Research grants get an Ongoing / Completed tag under the period: Ongoing while the end year is
 # this year or later, Completed otherwise. Add "status: ongoing" or "status: completed" to override.
 # Industry projects are tagged Completed unless "status: ongoing" is set.
+# figure: name of a drawing in _includes/figures/ (without .svg), shown to the right of the project.
 grants:
   - period: 2026 – 2033
     title: Center for foundations of mathematical algorithms and security
+    figure: p-src
     program: Science Research Center (SRC)
     funder: National Research Foundation of Korea (NRF)
   - period: 2026 – 2032
     title: "SOTA-MATH: center for specialized orchestration and training of AI for frontier mathematics"
+    figure: p-sota
     program: AI4S&T
     funder: National Research Foundation of Korea (NRF)
   - period: 2026 – 2031
     title: "Beyond transformer, beyond next-token prediction: hierarchical spectral state-space model with mathematical guarantees and unified learning algorithms"
+    figure: p-ssm
     program: Next Generation AI+S&T
     funder: National Research Foundation of Korea (NRF)
   - period: 2024 – 2031
     title: Intelligent national defense swarm system
+    figure: p-swarm
     program: ITRC
     funder: Institute for Information & Communications Technology Planning & Evaluation (IITP)
   - period: 2024 – 2027
     title: Artificial intelligence-based end-to-end framework for black-box combinatorial optimization
+    figure: p-blackbox
     program: Young Researcher Grant
     funder: National Research Foundation of Korea (NRF)
   - period: 2024 – 2025
     title: Deep learning foundation model for combinatorial optimization and its applications to various industrial problems
+    figure: p-foundation
     program: Basic Research Lab (BRL)
     funder: National Research Foundation of Korea (NRF)
   - period: 2021 – 2023
     title: Combinatorial optimization for data-driven decision making
+    figure: p-ysf
     program: Young Scientist Fellowship (YSF)
     funder: Institute for Basic Science (IBS)
 
 industry:
   - period: "2025"
     title: Generative AI-based JEDEC vector generator
+    figure: p-jedec
     partner: SK Hynix
   - period: "2024"
     title: Multi-system IO margin optimization via test mode register set (TMRS) combination search
+    figure: p-iomargin
     partner: Samsung Electronics, DRAM AE Team
   - period: "2023"
     title: Optimal test mode register set (TMRS) combination search
+    figure: p-tmrs
     partner: Samsung Electronics, DRAM AE Team

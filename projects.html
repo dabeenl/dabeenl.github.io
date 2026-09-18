@@ -23,6 +23,7 @@ description: "Research grants and industry projects led or co-led by Dabeen Lee.
         <span class="row-title">{{ g.title | escape }}</span>
         <span class="muted">{{ g.program | escape }}{% if g.funder and g.funder != "" %} &middot; {{ g.funder | escape }}{% endif %}</span>
       </div>
+      {% if g.figure and g.figure != "" %}<div class="row-fig">{% include figures/{{ g.figure }}.svg %}</div>{% endif %}
     </article>
   {% endfor %}
   </div>
@@ -39,6 +40,7 @@ description: "Research grants and industry projects led or co-led by Dabeen Lee.
         <span class="row-title">{{ g.title | escape }}</span>
         <span class="muted">{{ g.partner | escape }}</span>
       </div>
+      {% if g.figure and g.figure != "" %}<div class="row-fig">{% include figures/{{ g.figure }}.svg %}</div>{% endif %}
     </article>
   {% endfor %}
   </div>

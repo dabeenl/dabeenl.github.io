@@ -1,35 +1,49 @@
 # Teaching page. Each url is an existing course page at the repository root (MA1407.html is served at /MA1407).
+# figure:    name of a drawing in _includes/figures/ (without .svg), shown next to the course.
+# offerings: optional list of {term, topic, url}; use it when the topic changes from year to year.
+#            When it is present it replaces the plain "terms" line.
 - institution: Seoul National University
   courses:
     - code: MA1407.000500
       title: Mathematical Algorithms II
-      terms: Fall 2025, 2026
+      figure: ma1407
       url: /MA1407
+      offerings:
+        - term: Fall 2026
+          topic: Mathematical Foundations of Modern Artificial Intelligence
+        - term: Fall 2025
+          topic: Design and Analysis of Algorithms and Optimization Methods
     - code: "3341.454"
       title: Mathematical and Numerical Optimization
+      figure: mno
       terms: Spring 2026
       url: /MNO
 - institution: KAIST
   courses:
     - code: IE331
       title: "Operations Research: Optimization"
+      figure: ie331
       terms: Spring 2023, 2024
       url: /IE331
     - code: IE539
       title: Convex Optimization
+      figure: ie539
       terms: Fall 2022, 2023, 2024
       url: /IE539
     - code: IE631
       title: Integer Programming
+      figure: ie631
       terms: Spring 2023, 2025
       url: /IE631
     - code: DS801
       title: Advanced Optimization for Data Science
+      figure: ds801
       terms: Spring 2024
       url: /DS801
 - institution: Lecture series
   courses:
     - code: POSTECH
       title: Introduction to Modern Combinatorial Optimization
+      figure: combopt
       terms: Winter Lecture Series 2025
       url: /Comb_Opt

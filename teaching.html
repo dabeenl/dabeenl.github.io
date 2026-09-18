@@ -16,11 +16,16 @@ description: "Courses taught by Dabeen Lee at Seoul National University and KAIS
   <h2>{{ inst.institution }}</h2>
   <div class="rows">
   {% for c in inst.courses %}
-    <article class="row">
-      <span class="row-period">{{ c.code }}</span>
-      <div class="row-text">
+    <article class="course">
+      {% if c.figure and c.figure != "" %}<div class="thumb">{% include figures/{{ c.figure }}.svg %}</div>{% endif %}
+      <div class="course-text">
+        <span class="course-code">{{ c.code }}</span>
         {% if c.url and c.url != "" %}<a class="row-title" href="{{ c.url | relative_url }}">{{ c.title | escape }}</a>{% else %}<span class="row-title">{{ c.title | escape }}</span>{% endif %}
-        <span class="muted">{{ c.terms | escape }}</span>
+        {% if c.offerings %}
+        <ul class="offerings">
+          {% for o in c.offerings %}<li><span class="offering-term">{{ o.term | escape }}</span>{% if o.url and o.url != "" %}<a href="{{ o.url | relative_url }}">{{ o.topic | escape }}</a>{% else %}{{ o.topic | escape }}{% endif %}</li>{% endfor %}
+        </ul>
+        {% else %}<span class="muted">{{ c.terms | escape }}</span>{% endif %}
       </div>
     </article>
   {% endfor %}
