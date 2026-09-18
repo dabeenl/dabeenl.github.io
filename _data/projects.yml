@@ -1,6 +1,7 @@
 # Projects page.
 # Research grants get an Ongoing / Completed tag under the period: Ongoing while the end year is
 # this year or later, Completed otherwise. Add "status: ongoing" or "status: completed" to override.
+# Industry projects are tagged Completed unless "status: ongoing" is set.
 grants:
   - period: 2026 – 2033
     title: Center for foundations of mathematical algorithms and security
