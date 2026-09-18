@@ -7,3 +7,9 @@
     </nav>
   </div>
 </header>
+<script>
+(function () {
+  var nav = document.querySelector('.site-nav'), active = nav && nav.querySelector('a.active');
+  if (active && nav.scrollWidth > nav.clientWidth) { nav.scrollLeft = Math.max(0, active.offsetLeft - nav.offsetLeft - 20); }
+})();
+</script>

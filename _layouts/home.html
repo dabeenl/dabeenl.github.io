@@ -29,6 +29,7 @@ layout: default
     {% if p.interests %}
     <div class="chips">{% for t in p.interests %}<span class="chip">{{ t | escape }}</span>{% endfor %}</div>
     {% endif %}
+    {% include research-figures.html %}
 
     <section class="section">
       <h2>Recent papers</h2>
@@ -52,7 +53,7 @@ layout: default
     </section>
 
     <section class="card">
-      <h2>Group</h2>
+      <h2>{{ p.lab_name | default: "Group" }}</h2>
       <p>{{ site.data.members.size }} current members across {{ p.group_affiliations }}.</p>
       <p class="muted">{% for m in site.data.members %}{{ m.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
       <a class="more-link" href="{{ '/group/' | relative_url }}">Meet the group &rarr;</a>
