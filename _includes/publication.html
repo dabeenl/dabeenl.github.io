@@ -2,7 +2,7 @@
 {%- assign authors = pub.authors -%}
 {%- for m in site.data.members -%}{%- capture tag -%}<span class="member">{{ m.name }}</span>{%- endcapture -%}{%- assign authors = authors | replace: m.name, tag -%}{%- endfor -%}
 {%- for m in site.data.alumni -%}{%- capture tag -%}<span class="member">{{ m.name }}</span>{%- endcapture -%}{%- assign authors = authors | replace: m.name, tag -%}{%- endfor -%}
-<article class="pub" data-type="{{ pub.type }}">
+<article class="pub" data-type="{{ pub.type }}"{% if pub.conference %} data-conference="true"{% endif %}>
   {% if pub.links and pub.links.size > 0 %}{% assign first = pub.links.first %}<a class="pub-title" href="{% if first.url contains '://' %}{{ first.url }}{% else %}{{ first.url | relative_url }}{% endif %}">{{ pub.title | escape }}</a>{% else %}<span class="pub-title">{{ pub.title | escape }}</span>{% endif %}
   <p class="pub-authors">{{ authors }}</p>
   <p class="pub-meta">
@@ -11,4 +11,12 @@
     {% if pub.detail %}<span class="muted">&middot; {{ pub.detail | escape }}</span>{% endif %}
     {% for l in pub.links %}<a class="pub-link" href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label | escape }}</a>{% endfor %}
   </p>
+  {% if pub.conference %}{% assign c = pub.conference %}
+  <p class="pub-meta">
+    <span class="tag tag-conference">Conference</span>
+    {% if c.venue %}<span class="pub-venue">{{ c.venue | escape }}</span>{% endif %}
+    {% if c.detail %}<span class="muted">&middot; {{ c.detail | escape }}</span>{% endif %}
+    {% for l in c.links %}<a class="pub-link" href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.label | escape }}</a>{% endfor %}
+  </p>
+  {% endif %}
 </article>
