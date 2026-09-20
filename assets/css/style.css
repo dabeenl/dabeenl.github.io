@@ -173,6 +173,9 @@ html { scroll-padding-top: 96px; }
 .pub-list { display: flex; flex-direction: column; }
 .pub { display: flex; flex-direction: column; gap: 4px; padding: 12px 0; border-top: 1px solid var(--rule); }
 .pub:last-child { border-bottom: 1px solid var(--rule); }
+.pub-body { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.pub-numbered { display: grid; grid-template-columns: 2.75rem minmax(0, 1fr); column-gap: 8px; align-items: start; }
+.pub-num { font-family: var(--font-display); font-size: 17px; text-align: right; line-height: 1.35; font-variant-numeric: tabular-nums; color: var(--muted); }
 .pub-title { font-size: 17px; font-weight: 600; color: var(--ink); text-decoration: none; line-height: 1.35; }
 a.pub-title:hover { color: var(--accent); }
 .pub-authors { font-size: 15px; color: var(--muted); margin: 0; }
@@ -214,9 +217,6 @@ a.pub-title:hover { color: var(--accent); }
 }
 .filter:hover { border-color: var(--accent); }
 .filter.active { background: var(--accent); border-color: var(--accent); color: #FFFFFF; }
-.year-block { display: flex; gap: 40px; align-items: flex-start; margin-top: 28px; }
-.year { width: 150px; flex-shrink: 0; font-size: 34px; line-height: 1.1; padding-top: 12px; }
-.year-block .pub-list { flex-grow: 1; min-width: 0; }
 
 /* Rows (projects, teaching) */
 .rows { display: flex; flex-direction: column; }
@@ -381,8 +381,7 @@ a.alumni-name:hover { color: var(--accent); }
   .hero-photo { width: 120px; height: 150px; }
   .hero-contact { flex-direction: column; gap: 2px; }
   .member-grid, .alumni-grid { grid-template-columns: minmax(0, 1fr); }
-  .year-block { flex-direction: column; gap: 8px; }
-  .year { width: auto; padding-top: 0; }
+  .pub-numbered { grid-template-columns: 2.1rem minmax(0, 1fr); column-gap: 6px; }
   .course-hero { flex-direction: column-reverse; align-items: stretch; gap: 18px; padding: 18px; }
   .course-hero h1 { font-size: 28px; }
   .course-hero-fig { width: 100%; }

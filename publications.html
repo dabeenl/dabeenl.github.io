@@ -24,27 +24,29 @@ description: "Papers and preprints by Dabeen Lee on optimization, online learnin
   <button type="button" class="filter" data-filter="conference">Conference papers</button>
 </div>
 
-{% assign preprints = site.data.publications | where: "type", "preprint" %}
+{% assign all = site.data.publications %}
+{% assign preprints = all | where: "type", "preprint" %}
+{% assign papers = all | where_exp: "p", "p.type != 'preprint'" %}
+{% assign total = all.size %}
+{% assign paper_total = total | minus: preprints.size %}
+
 {% if preprints.size > 0 %}
-<section class="year-block">
-  <h2 class="year">Preprints</h2>
+<section class="section pub-section">
+  <h2>Preprints</h2>
   <div class="pub-list">
-  {% for pub in preprints %}{% include publication.html pub=pub %}{% endfor %}
+  {% for pub in preprints %}{% assign n = total | minus: forloop.index0 %}{% include publication.html pub=pub num=n %}{% endfor %}
   </div>
 </section>
 {% endif %}
 
-{% assign papers = site.data.publications | where_exp: "p", "p.type != 'preprint'" %}
-{% assign years = papers | map: "year" | uniq | sort | reverse %}
-{% for y in years %}
-<section class="year-block">
-  <h2 class="year">{{ y }}</h2>
+{% if papers.size > 0 %}
+<section class="section pub-section">
+  <h2>Journal articles and conference papers</h2>
   <div class="pub-list">
-  {% assign items = papers | where: "year", y %}
-  {% for pub in items %}{% include publication.html pub=pub %}{% endfor %}
+  {% for pub in papers %}{% assign n = paper_total | minus: forloop.index0 %}{% include publication.html pub=pub num=n %}{% endfor %}
   </div>
 </section>
-{% endfor %}
+{% endif %}
 
 <section class="section">
   <h2>Ph.D. thesis</h2>
@@ -61,8 +63,8 @@ description: "Papers and preprints by Dabeen Lee on optimization, online learnin
 <script>
 (function () {
   var buttons = document.querySelectorAll('.filter');
-  var pubs = document.querySelectorAll('.year-block .pub');
-  var blocks = document.querySelectorAll('.year-block');
+  var pubs = document.querySelectorAll('.pub-section .pub');
+  var blocks = document.querySelectorAll('.pub-section');
   buttons.forEach(function (button) {
     button.addEventListener('click', function () {
       var filter = button.getAttribute('data-filter');
