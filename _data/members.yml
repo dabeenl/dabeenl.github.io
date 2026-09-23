@@ -3,50 +3,52 @@
 # photo:   optional, e.g. /assets/img/members/seoungbin-bae.jpg (square works best); initials are shown otherwise.
 # homepage / scholar: optional links.
 - name: Seoungbin Bae
-  program: ""
+  program: "Ph.D. student"
   affiliation: KAIST ISE
   since: 2024
   homepage: https://sbbae31.github.io
   photo: /assets/img/members/seoungbin-bae.jpg
 - name: Kihyun Yu
-  program: ""
+  program: "Ph.D. student"
   affiliation: KAIST ISE
   since: 2024
   homepage: https://kihyun-yu.github.io
   photo: /assets/img/members/kihyun-yu.jpg
 - name: Hoyeol Yoon
-  program: ""
+  program: "M.S. student"
   affiliation: KAIST ISE
   since: 2025
 - name: Junehee Lee
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2025
 - name: Juhyeok Choi
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2025
   photo: /assets/img/members/juhyeok-choi.jpg
 - name: Taewoong Eom
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2026
+  photo: /assets/img/members/taewoong-eom.jpg
 - name: Jinwoo Kim
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2026
 - name: Euro Kim
-  program: ""
+  program: "M.S. student"
   affiliation: SNU AI
   since: 2026
   homepage: https://euro-kim.github.io
   photo: /assets/img/members/euro-kim.jpg
 - name: Jimin Chae
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2026
+  photo: /assets/img/members/jimin-chae.jpg
 - name: Minsuk Yoo
-  program: ""
+  program: "Ph.D. student"
   affiliation: SNU Math
   since: 2026
   photo: /assets/img/members/minsuk-yoo.jpg
