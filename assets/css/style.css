@@ -2,15 +2,15 @@
    Colors and type live in the :root tokens below; everything else derives from them. */
 
 :root {
-  --paper: #EAEFF7;
-  --ink: #1A1D24;
-  --muted: #5A6272;
-  --rule: #D5DDE9;
+  --paper: #F7F8FA;
+  --ink: #17181C;
+  --muted: #5C6068;
+  --rule: #E4E6EB;
   --surface: #FFFFFF;
-  --surface-2: #E1E8F3;
+  --surface-2: #EEF0F4;
   --accent: #1E4E8C;
   --accent-dark: #153B6B;
-  --accent-tint: #DCE5F4;
+  --accent-tint: #E4EBF7;
   --accent-line: #C9D2E3;
   --font-body: 'Source Sans 3', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --font-display: 'Newsreader', Georgia, 'Times New Roman', serif;
@@ -52,7 +52,7 @@ html { scroll-padding-top: 96px; }
   top: 0;
   z-index: 50;
   border-bottom: 1px solid var(--rule);
-  background: rgba(234, 239, 247, 0.92);
+  background: rgba(247, 248, 250, 0.92);
   -webkit-backdrop-filter: saturate(1.4) blur(10px);
   backdrop-filter: saturate(1.4) blur(10px);
 }
@@ -192,8 +192,8 @@ a.pub-title:hover { color: var(--accent); }
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  background: #DEE5F0;
-  color: #44505F;
+  background: #E8EAEF;
+  color: #4A4E58;
 }
 .tag-conference { background: var(--accent-tint); color: var(--accent); }
 .tag-journal { background: var(--surface); color: var(--accent); border: 1px solid #B9C7E0; }
