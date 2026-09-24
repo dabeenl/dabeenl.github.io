@@ -1,6 +1,10 @@
 # Home page "News" box. Newest first; the first 6 are shown. Markdown allowed in text.
+- label: NeurIPS 2026
+  text: "Three papers accepted: [contextual queueing bandits with rate-optimal queue length regret](https://arxiv.org/abs/2606.09668), [weakly communicating average-reward CMDPs](https://arxiv.org/abs/2605.11586), and [logistic bandits without context diversity](https://arxiv.org/abs/2604.22161)."
+- label: CDC 2026
+  text: "[Near-optimal primal-dual algorithm for learning linear mixture CMDPs with adversarial rewards](https://arxiv.org/abs/2603.27884) accepted."
 - label: Jun 2026
-  text: "New preprints on [constrained online convex optimization without Slater's condition](https://arxiv.org/abs/2606.31480) and on [contextual queueing bandits](https://arxiv.org/abs/2606.09668)."
+  text: "New preprint on [constrained online convex optimization without Slater's condition](https://arxiv.org/abs/2606.31480)."
 - label: ICML 2026
   text: "*Neural logistic bandits* accepted."
 - label: ICLR 2026

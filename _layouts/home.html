@@ -34,9 +34,9 @@ layout: default
     <section class="section">
       <h2>Recent papers</h2>
       {% assign featured = site.data.publications | where: "featured", true %}
-      {% if featured.size == 0 %}{% assign featured = site.data.publications | slice: 0, 3 %}{% endif %}
+      {% if featured.size == 0 %}{% assign featured = site.data.publications | slice: 0, 5 %}{% endif %}
       <div class="pub-list">
-      {% for pub in featured limit: 3 %}{% include publication.html pub=pub %}{% endfor %}
+      {% for pub in featured limit: 5 %}{% include publication.html pub=pub %}{% endfor %}
       </div>
       <a class="more-link" href="{{ '/publications/' | relative_url }}">All publications &rarr;</a>
     </section>

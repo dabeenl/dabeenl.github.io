@@ -9,7 +9,7 @@
 #   detail:   optional grey text after the venue (full name, volume/pages, awards)
 #   links:    list of {label, url}; the first one is used as the title link.
 #             Local files are written as "/file.pdf" (they live at the repository root).
-#   featured: true  → shown under "Recent papers" on the Home page (first three)
+#   featured: true  → shown under "Recent papers" on the Home page (first five)
 #   conference: optional {venue, detail, links} for a conference version of a journal paper;
 #             it is shown on its own line under the journal line.
 #   awards:   optional list of {text, url, source}; each item is shown in bold on its own line
@@ -51,6 +51,7 @@
   type: conference
   venue: NeurIPS 2026
   detail: Conference on Neural Information Processing Systems, to appear
+  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2606.09668"
@@ -61,6 +62,7 @@
   type: conference
   venue: NeurIPS 2026
   detail: Conference on Neural Information Processing Systems, to appear
+  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2605.11586"
@@ -71,6 +73,7 @@
   type: conference
   venue: NeurIPS 2026
   detail: Conference on Neural Information Processing Systems, to appear
+  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2604.22161"
@@ -81,6 +84,7 @@
   type: conference
   venue: CDC 2026
   detail: IEEE Conference on Decision and Control
+  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2603.27884"
@@ -102,7 +106,6 @@
   type: conference
   venue: ICLR 2026
   detail: International Conference on Learning Representations
-  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2601.19300"
@@ -127,7 +130,6 @@
     - text: "Honorable Mention, INFORMS Undergraduate Operations Research Prize, 2024"
       url: "https://www.informs.org/Recognizing-Excellence/INFORMS-Prizes/Undergraduate-Operations-Research-Prize"
       source: INFORMS
-  featured: true
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2311.09738"
