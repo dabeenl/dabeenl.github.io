@@ -25,26 +25,6 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2606.31480"
 
-- title: "Algorithm for Contextual Queueing Bandits with Rate-Optimal Queue Length Regret"
-  authors: "Seoungbin Bae, Dabeen Lee*"
-  year: 2026
-  type: preprint
-  venue: arXiv
-  detail: June 2026
-  links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2606.09668"
-
-- title: "Learning weakly communicating average-reward CMDPs: strong duality and improved regret"
-  authors: "Kihyun Yu, Beomhan Baek, Dabeen Lee*"
-  year: 2026
-  type: preprint
-  venue: arXiv
-  detail: May 2026
-  links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2605.11586"
-
 - title: "Chebyshev center-based direction selection for multi-objective optimization and training PINNs"
   authors: "Hoyeol Yoon, Seoungbin Bae, Nam Ho-Nguyen, Dabeen Lee*"
   year: 2026
@@ -55,16 +35,6 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2605.09975"
 
-- title: "Logistic bandits with Õ(√dT) regret without context diversity assumptions"
-  authors: "Seoungbin Bae, Dabeen Lee*"
-  year: 2026
-  type: preprint
-  venue: arXiv
-  detail: April 2026
-  links:
-    - label: arXiv
-      url: "https://arxiv.org/abs/2604.22161"
-
 - title: "Learning to route and schedule LLMs from user retrials via contextual queueing bandits"
   authors: "Seoungbin Bae, Junyoung Son, Dabeen Lee*"
   year: 2026
@@ -74,6 +44,36 @@
   links:
     - label: arXiv
       url: "https://arxiv.org/abs/2602.02061"
+
+- title: "Algorithm for Contextual Queueing Bandits with Rate-Optimal Queue Length Regret"
+  authors: "Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: NeurIPS 2026
+  detail: Conference on Neural Information Processing Systems, to appear
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2606.09668"
+
+- title: "Learning weakly communicating average-reward CMDPs: strong duality and improved regret"
+  authors: "Kihyun Yu, Beomhan Baek, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: NeurIPS 2026
+  detail: Conference on Neural Information Processing Systems, to appear
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2605.11586"
+
+- title: "Logistic bandits with Õ(√dT) regret without context diversity assumptions"
+  authors: "Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: conference
+  venue: NeurIPS 2026
+  detail: Conference on Neural Information Processing Systems, to appear
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2604.22161"
 
 - title: "Near-optimal primal-dual algorithm for learning linear mixture CMDPs with adversarial rewards"
   authors: "Kihyun Yu, Seoungbin Bae, Dabeen Lee*"
