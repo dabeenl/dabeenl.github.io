@@ -50,7 +50,7 @@
   year: 2026
   type: conference
   venue: NeurIPS 2026
-  detail: Conference on Neural Information Processing Systems, to appear
+  detail: Conference on Neural Information Processing Systems
   featured: true
   links:
     - label: arXiv
@@ -61,7 +61,7 @@
   year: 2026
   type: conference
   venue: NeurIPS 2026
-  detail: Conference on Neural Information Processing Systems, to appear
+  detail: Conference on Neural Information Processing Systems
   featured: true
   links:
     - label: arXiv
@@ -72,7 +72,7 @@
   year: 2026
   type: conference
   venue: NeurIPS 2026
-  detail: Conference on Neural Information Processing Systems, to appear
+  detail: Conference on Neural Information Processing Systems
   featured: true
   links:
     - label: arXiv
