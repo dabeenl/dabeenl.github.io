@@ -75,7 +75,9 @@ html { scroll-padding-top: 96px; }
   color: var(--ink);
   text-decoration: none;
 }
-.site-logo { width: 34px; height: 34px; flex-shrink: 0; }
+.site-logo { width: 42px; height: 42px; flex-shrink: 0; }
+/* drop the serif name so its cap-height midline sits on the wreath's centre */
+.site-name-text { position: relative; top: 0.13em; }
 .site-nav { display: flex; flex-wrap: wrap; gap: 4px 28px; }
 .site-nav a {
   font-size: 16px;
@@ -369,7 +371,7 @@ a.alumni-name:hover { color: var(--accent); }
   .page { padding: 32px 20px 40px; }
   .header-inner { min-height: 0; gap: 2px 24px; padding-top: 10px; padding-bottom: 0; }
   .site-name { font-size: 21px; gap: 8px; }
-  .site-logo { width: 28px; height: 28px; }
+  .site-logo { width: 34px; height: 34px; }
   .site-nav {
     width: calc(100% + 40px);
     margin: 0 -20px;
