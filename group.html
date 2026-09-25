@@ -46,8 +46,8 @@ description: "The Optimization and Algorithms Lab: students and alumni of Dabeen
       <div class="alumni-text">
         {% if a.homepage and a.homepage != "" %}<a class="alumni-name" href="{{ a.homepage }}">{{ a.name }}</a>{% else %}<span class="alumni-name">{{ a.name }}</span>{% endif %}
         <span class="muted">{{ a.role }}, {{ a.affiliation }}, {{ a.years }}</span>
+        {% if a.now and a.now != "" %}<span class="muted alumni-now">now {{ a.now }}</span>{% endif %}
       </div>
-      {% if a.now and a.now != "" %}<span class="muted alumni-now">now {{ a.now }}</span>{% endif %}
     </div>
   {% endfor %}
   </div>

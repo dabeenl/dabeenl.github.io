@@ -290,7 +290,7 @@ a.member-name:hover { color: var(--accent); }
 .alumni-text { display: flex; flex-direction: column; gap: 1px; }
 .alumni-name { font-size: 16px; font-weight: 600; color: var(--ink); text-decoration: none; }
 a.alumni-name:hover { color: var(--accent); }
-.alumni-now { text-align: right; flex-shrink: 0; }
+.alumni-now { margin-top: 2px; }
 .collaborators { font-size: 16px; line-height: 1.7; }
 
 /* Footer */
@@ -397,5 +397,4 @@ a.alumni-name:hover { color: var(--accent); }
   .offerings { gap: 6px; }
   .row-period { width: auto; font-size: 18px; }
   .alumni-row { flex-direction: column; gap: 2px; }
-  .alumni-now { text-align: left; }
 }
