@@ -15,7 +15,7 @@
 #   awards:   optional list of {text, url, source}; each item is shown in bold on its own line
 #             under the paper, with the url as a small "source" link next to it (url/source optional).
 
-- title: "Learning Infinite-Horizon Average-Reward CMDPs via State Augmentation"
+- title: "Learning infinite-horizon average-reward CMDPs via state augmentation"
   authors: "Kihyun Yu, Seoungbin Bae, Dabeen Lee*"
   year: 2026
   type: preprint
@@ -25,7 +25,7 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2609.39093"
 
-- title: "Nonpreemptive Scheduling While Learning Context-Dependent Service Rates"
+- title: "Nonpreemptive scheduling while learning context-dependent service rates"
   authors: "Wansoo Choi, Seoungbin Bae, Dabeen Lee*"
   year: 2026
   type: preprint
@@ -35,7 +35,7 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2609.37660"
 
-- title: "Constrained Online Convex Optimization without Slater's Condition"
+- title: "Constrained online convex optimization without Slater's condition"
   authors: "Kihyun Yu, Junehee Lee, Dabeen Lee*"
   year: 2026
   type: preprint
@@ -65,7 +65,7 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2602.02061"
 
-- title: "Algorithm for Contextual Queueing Bandits with Rate-Optimal Queue Length Regret"
+- title: "Algorithm for contextual queueing bandits with rate-optimal queue length regret"
   authors: "Seoungbin Bae, Dabeen Lee*"
   year: 2026
   type: conference
