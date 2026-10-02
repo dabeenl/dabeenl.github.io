@@ -25,6 +25,16 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2609.39093"
 
+- title: "Rate-optimal algorithm for adversarial linear CMDPs"
+  authors: "Kihyun Yu, Honghao Wei, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: October 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2610.00927"
+
 - title: "Nonpreemptive scheduling while learning context-dependent service rates"
   authors: "Wansoo Choi, Seoungbin Bae, Dabeen Lee*"
   year: 2026
