@@ -25,6 +25,16 @@
     - label: arXiv
       url: "https://arxiv.org/abs/2610.00927"
 
+- title: "Minimax optimal regret for causal logistic bandits with counterfactual fairness"
+  authors: "Junhyuk Huh, Seoungbin Bae, Dabeen Lee*"
+  year: 2026
+  type: preprint
+  venue: arXiv
+  detail: October 2026
+  links:
+    - label: arXiv
+      url: "https://arxiv.org/abs/2610.01377"
+
 - title: "Learning infinite-horizon average-reward CMDPs via state augmentation"
   authors: "Kihyun Yu, Seoungbin Bae, Dabeen Lee*"
   year: 2026
