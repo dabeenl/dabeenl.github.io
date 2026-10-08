@@ -52,11 +52,11 @@
   affiliation: SNU Math
   since: 2026
   photo: /assets/img/members/minsuk-yoo.jpg
-- name: Wansoo Choi
-  program: "Undergraduate researcher"
-  affiliation: SNU Physics
-  since: 2026
 - name: Jaehyun Woo
   program: "Ph.D. student"
   affiliation: SNU Math
+  since: 2026
+- name: Wansoo Choi
+  program: "Undergraduate researcher"
+  affiliation: SNU Physics
   since: 2026
